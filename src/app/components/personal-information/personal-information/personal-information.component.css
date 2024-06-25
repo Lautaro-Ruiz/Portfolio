@@ -1,0 +1,30 @@
+.box-personal-information{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-bottom: 4rem;
+    border: solid black 0.2rem;
+    padding: 2rem;
+}
+
+.box-presentation{
+    margin-right: 40rem;
+}
+
+.about-me{
+    padding-top: 2rem;
+}
+
+.container-of-box{
+    display: flex;
+    justify-content: center;
+}
+
+.box-download-cv{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.download-cv{
+    justify-content: center;
+}
