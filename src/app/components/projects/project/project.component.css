@@ -1,7 +1,29 @@
+*{
+    color: white;
+    font-family: Kadwa;
+    font-size: 1.3rem;
+}
+
 .box-projects{
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-    margin-bottom: 4rem;
-    border: solid black 0.2rem;
-    padding: 2rem;   
+    border-bottom: solid white 0.1rem;
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+}
+
+.box-title{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    border: none;
+    padding: 0.3rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 2rem;
+    background: linear-gradient(
+        to right,
+        #0057FF 18%,
+        #003499 81%
+    );
 }

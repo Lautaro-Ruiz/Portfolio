@@ -1,10 +1,14 @@
+*{
+    color: white;
+    font-size: 1.3rem;
+}
+
 .box-navbar{
-    margin-top: 3.5rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    margin-bottom: 4rem;
-    border: solid black 0.2rem;
-    padding: 2rem;
+
+    margin-bottom: 2rem;
+    border-bottom: 0.2rem solid white;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
 }
 
 .navbar{
@@ -12,15 +16,31 @@
 }
 
 .box-home{
-    margin-right: 90rem;
+    margin-right: 80rem;
+    padding-left: 5rem;
+    #button-home{ 
+        font-family: Kadwa;
+        border: 0rem;
+    }
 }
 
 .box-options{
+    display: flex;
+
     #button-experience{
         margin-right: 1rem;
+        font-family: Kadwa;
+        border: 0rem;
     }
 
     #button-projects{
         margin-right: 1rem;
+        font-family: Kadwa;
+        border: 0rem;
+    }
+
+    #button-contact{
+        font-family: Kadwa;
+        border: 0rem;
     }
 }
