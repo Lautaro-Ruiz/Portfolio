@@ -1,7 +1,22 @@
 <section class="box-projects">
     <section class="box-title">
         <button class="title">  
-            Experience
+            Projects
         </button>
+    </section>
+
+    <section class="projects">
+        <section class="item-project" *ngFor="let project of projects">
+            <h3> {{project.name}} </h3>
+            <p><span>Aptitudes: </span> {{project.aptitudes.join(', ')}}</p>
+            <p><span>Duration: </span> {{project.since}} - {{project.until}} </p>
+            <p> {{project.description}} </p>
+            <section class="item-images">
+                <img *ngFor="let image of project.images" [src]="getImagePath(image.name)" alt="{{project.name}}" [attr.height]="image.height" [attr.width]="image.width">
+            </section>
+            <p><span>GitHub: </span> 
+                <a *ngFor="let link of project.github" href="link" target="_blank"> {{link}} <br> </a>
+            </p>
+        </section>
     </section>
 </section>

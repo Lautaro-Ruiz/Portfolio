@@ -5,39 +5,45 @@
 }
 
 .box-personal-information{
-    border-bottom: solid white 0.1rem;
     padding: 2rem;
 }
 
 .box-presentation{
-    margin-right: 40rem;
+    margin-right: 18rem;
+}
+
+.presentation{
+    font-size: 2rem;
 }
 
 .about-me{
-    padding-top: 2rem;
+    font-size: 2rem;
 }
 
 .rol{
     color: #0057FF;
-    font-size: 1.8rem;
+    font-size: 3.4rem;
 }
 
 .container-of-box{
+    padding-top: 4rem;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
 .box-download-cv{
     display: flex;
     justify-content: center;
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 
 .download-cv{
+    font-size: 1.5rem;
     border-radius: 2rem;
-    padding: 0.3rem;
-    padding-right: 0.6rem;
-    padding-left: 0.6rem;
+    padding: 0.6rem;
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
     border: none; /* Quita el borde por defecto del botón */
     background: linear-gradient(
         to right,
@@ -46,10 +52,14 @@
     );
 }
 
+.box-profile-picture{
+
+}
+
 .circle-profile-picture{
-    width: 12rem;
-    height: 12rem;
-    border-radius: 10rem;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
     background-color: #0057FF;
     overflow: hidden;
     display: flex;
@@ -57,6 +67,13 @@
     align-items: center;
 }
 
-#profile-picture{
-    background-color: #0057FF;
+#profile-picture {
+    width: 100%; /* Asegurarse de que el contenedor del perfil ocupe todo el círculo */
+    height: 100%;
 }
+
+.profile-picture-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen ocupe todo el contenedor y se recorte si es necesario */
+  }

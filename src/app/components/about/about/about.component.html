@@ -1,0 +1,38 @@
+<section class="box-about">
+    <section class="box-title">
+        <button class="title" disabled>  
+            About
+        </button>
+    </section>
+
+    <section class="content-of-about">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi id facere, eligend.</p>
+    </section>
+
+    <section class="box-education">
+           <section class="education">
+                Education
+           </section>
+           
+           <section class="item-education">
+                <ul *ngFor="let item of education">
+                    <h3>{{item.title}}</h3>
+                    <p>{{item.place}}</p>
+                    <p>{{item.since}} - {{item.until}}</p>
+                </ul>
+           </section>
+    </section>
+    
+    <section class="box-skills">
+        <section class="tech-stack">
+            <div>Tech Stack: </div>
+        </section>
+
+        <section class="skill">
+            <div id="container-skill" *ngFor="let skill of skills">
+                <h3> {{skill.name }}</h3>
+                <img [src]="getImagePath(skill.image)" alt="{{skill.name}}" width="{{skill.width}}" height="{{skill.height}}">            
+            </div>
+        </section>
+    </section>
+</section>

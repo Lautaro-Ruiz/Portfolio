@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./personal-information.component.css']
 })
 export class PersonalInformationComponent {
-
+  
+  downloadCV(): void {
+    const link = document.createElement('a');
+    link.href = `assets/img/Ruiz Lautaro CV.pdf`;
+    link.download = 'Lautaro_Ruiz_CV.pdf';
+    link.click();
+  } 
 }

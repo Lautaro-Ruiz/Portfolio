@@ -1,13 +1,20 @@
 <section class="box-work-experience">
     <section class="box-title">
         <button class="title">  
-            Experience
+            Work Experience
         </button>
     </section>
 
     <section class="box-experiences">
-        <div class="work-experience">
-            Experiencia 1
+        <div class="work-experience" *ngFor="let experience of work_experiences">
+            <ul class="item">
+                <img [src]="getImagePath(experience.image)" alt="{{experience.company}}" height="{{experience.height}}" width="{{experience.width}}">
+                <h3>{{experience.charge}}</h3>
+                <span> {{experience.company}}</span>
+                <h4> {{experience.since}} {{experience.until}} </h4>
+                <h4> {{experience.mode}} </h4>
+                <p>{{experience.description}}</p>
+            </ul>
         </div>
     </section>
 </section>

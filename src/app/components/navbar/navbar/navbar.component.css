@@ -4,8 +4,7 @@
 }
 
 .box-navbar{
-
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
     border-bottom: 0.2rem solid white;
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
@@ -16,7 +15,7 @@
 }
 
 .box-home{
-    margin-right: 80rem;
+    margin-right: 70rem;
     padding-left: 5rem;
     #button-home{ 
         font-family: Kadwa;
@@ -26,7 +25,8 @@
 
 .box-options{
     display: flex;
-
+    padding-right: 4rem;
+    
     #button-experience{
         margin-right: 1rem;
         font-family: Kadwa;
