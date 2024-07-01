@@ -5,15 +5,7 @@
     background-color: #0D1F60;
 }
 
-.box-about{
-    display:block;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    align-items: center;
-    border-bottom: solid 0.1rem white;
-}
-
-.box-title{
+.tech-stack{
     display: flex;
     padding-left: 4rem;
     align-items: center;
@@ -36,50 +28,36 @@
     );
 }
 
-.content-of-about{
-    padding-top: 1rem;
-    padding-left: 7rem;
-    display: block;
-    margin: 0%;
+.box-skills{
+    border-bottom: solid white 0.1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
-.box-education{
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skill-row {
     display: flex;
     justify-content: center;
 }
 
-.item-education{
-    display: flex;
+.container-skill{
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem;
+    padding-right: 1.4rem;
 }
 
-.item-info{
+.skill-name{
     display: flex;
     justify-content: center;
-    padding-left: 6rem;
 }
 
-.container-list{
-    display: flex;
-    padding-left: 1rem;
-}
-
-.list{
+.image{
     margin: 0%;
     padding: 0%;
-}
-
-.about-me{
-    width: 100rem;
-    padding-left: 9.5rem;
-}
-
-.education{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 2rem;
-}
-
-.section{
-    display: block;
-    justify-content: center;
 }

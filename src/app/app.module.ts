@@ -10,6 +10,7 @@ import { FooterComponent } from './components/footer/footer/footer.component';
 import { WorkExperienceComponent } from './components/work-experience/work-experience/work-experience.component';
 import { ProjectComponent } from './components/projects/project/project.component';
 import { AboutComponent } from './components/about/about/about.component';
+import { TechStackComponent } from './components/tech-stack/tech-stack/tech-stack.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { AboutComponent } from './components/about/about/about.component';
     WorkExperienceComponent,
     ProjectComponent,
     AboutComponent,
+    TechStackComponent,
   ],
   imports: [
     BrowserModule,

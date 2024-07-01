@@ -6,18 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent {
-  skills = [
-    {name: 'Java', image: 'Java.webp', height: 100, width: 100},
-    {name: 'Spring', image: 'Spring_Framework.webp', height: 140, width: 130},
-    {name: 'JavaScript', image: 'JS.webp', height: 140, width: 140},
-    {name: 'GitHub', image: 'GitHub.webp', height: 100, width: 140},
-    {name: 'MySQL', image: 'mysql.webp', height: 110, width: 100},
-    {name: 'Angular', image: 'Angular.webp', height: 100, width: 100},
-    {name: 'C', image: 'C.webp', height: 90, width: 85},
-  ]
-
   education = [
-    {title: '', place: '',  since: '', until: ''}
+    {title: 'Tec. Universitario en Programación', place: 'Universidad Tecnológica',  since: 'Mar. 2022', until: 'Dic. 2024', image: 'UTN_logo.jpg', width: 120,  height:95},
+    {title: 'Bachiller en Humanidades', place: 'Instituto San Antonio María Gianelli', since: 'Jun. 2016', until: 'Dic. 2021', image: 'UTN_logo.jpg', width: 120,  height:95}
   ]
 
   getImagePath(image: string): string {

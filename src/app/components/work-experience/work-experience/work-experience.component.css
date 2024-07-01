@@ -7,20 +7,27 @@
 
 .box-work-experience{
     display:block;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     align-items: center;
-    justify-items: center;
     border-bottom: solid 0.1rem white;
 }
 
 .box-title{
     display: flex;
-    justify-content: center;
+    padding-left: 4rem;
+    align-items: center;
+}
+
+.briefcase{
+    margin-right: 1rem;
 }
 
 .title{
+    font-size: 1.6rem;
+    margin: 0rem;
+    justify-content: center;
+    align-items: center;
     border: none;
     padding: 0.3rem;
     padding-right: 1rem;
@@ -33,11 +40,43 @@
     );
 }
 
-.box-experiences{
-    padding: 1rem;
-    display: flex;
+.text-title{
+    background-color: transparent;
+    margin: 0rem;
+    align-items: center;
     justify-content: center;
 }
 
+.box-experiences{
+    padding-top: 1rem;
+    padding-left: 7rem;
+    display: flex;
+    margin: 0%;
+}
+
 .work-experience{
+}
+
+.item{
+
+}
+
+.container-experience-info{
+    display: flex;
+}
+
+.experience-info{
+    display: block;
+    padding-left: 1rem;
+    padding-top: 0.2rem;
+}
+
+.experience-description{
+    padding-left: 9.5rem;
+    padding-top: 1.5rem;
+}
+
+.container-description{
+    border-left: solid white 0.2rem;
+    padding-left: 0.75rem;
 }

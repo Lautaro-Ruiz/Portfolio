@@ -6,33 +6,28 @@
     </section>
 
     <section class="content-of-about">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi id facere, eligend.</p>
-    </section>
-
-    <section class="box-education">
-           <section class="education">
-                Education
-           </section>
-           
-           <section class="item-education">
-                <ul *ngFor="let item of education">
-                    <h3>{{item.title}}</h3>
-                    <p>{{item.place}}</p>
-                    <p>{{item.since}} - {{item.until}}</p>
-                </ul>
-           </section>
-    </section>
-    
-    <section class="box-skills">
-        <section class="tech-stack">
-            <div>Tech Stack: </div>
+        <section>
+            <p class="about-me">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit mollitia voluptatibus minus culpa eligendi expedita repudiandae laboriosam odio, distinctio deserunt est velit, exercitationem itaque? Dolore quidem perferendis nesciunt dolorem vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tempore libero ad provident amet neque, quidem dignissimos, quo numquam accusantium labore incidunt molestias ipsam culpa laborum? Minima explicabo magni eos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus atque labore a et illum repudiandae, magnam deleniti dolorem architecto fuga, incidunt, quisquam quis facere. Voluptatum earum a modi voluptas hic.</p>
         </section>
-
-        <section class="skill">
-            <div id="container-skill" *ngFor="let skill of skills">
-                <h3> {{skill.name }}</h3>
-                <img [src]="getImagePath(skill.image)" alt="{{skill.name}}" width="{{skill.width}}" height="{{skill.height}}">            
-            </div>
+        <section class="section">
+            <section class="education">
+                    Education
+            </section>
+            <section class="box-education">
+                <section class="item-education" *ngFor="let item of education">
+                    <div class="item-info">
+                        <img [src]="getImagePath(item.image)" width="{{item.width}}" height="{{item.height}}">
+                        <div class="container-list">
+                            <ul class="list">
+                                <h3>{{item.title}}</h3>
+                                <h3>{{item.place}}</h3>
+                                <h4>{{item.since}} - {{item.until}}</h4>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </section>
         </section>
     </section>
+
 </section>

@@ -1,19 +1,31 @@
 <section class="box-work-experience">
     <section class="box-title">
-        <button class="title">  
-            Work Experience
-        </button>
+        <img src="assets/img/briefcase.webp" alt="Briefcase" width="60" height="60" class="briefcase">
+        <p class="title">Work Experience</p>
     </section>
 
     <section class="box-experiences">
         <div class="work-experience" *ngFor="let experience of work_experiences">
-            <ul class="item">
-                <img [src]="getImagePath(experience.image)" alt="{{experience.company}}" height="{{experience.height}}" width="{{experience.width}}">
-                <h3>{{experience.charge}}</h3>
-                <span> {{experience.company}}</span>
-                <h4> {{experience.since}} {{experience.until}} </h4>
-                <h4> {{experience.mode}} </h4>
-                <p>{{experience.description}}</p>
+            <ul>
+                <div class="item">
+                    <div class="container-experience-info">
+                        <img [src]="getImagePath(experience.image)" alt="{{experience.company}}" height="{{experience.height}}" width="{{experience.width}}">
+                        <div class="experience-info">
+                            <h3>{{experience.charge}}</h3>
+                            <h3> {{experience.company}}</h3>
+                            <h4> {{experience.since}} {{experience.until}} </h4>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-description">
+                        <div class="container-description">
+                            <p>{{experience.description}}</p>
+                            <ul *ngFor="let positive_aspect of experience.positive_aspects">
+                                <p> {{positive_aspect }}</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </ul>
         </div>
     </section>

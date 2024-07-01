@@ -1,22 +1,44 @@
 <section class="box-projects">
     <section class="box-title">
-        <button class="title">  
-            Projects
-        </button>
+        <img src="assets/img/code-slash.png" alt="Code Slash" width="60" height="60" class="code-slash">
+        <p class="title"> Projects </p>
     </section>
 
     <section class="projects">
-        <section class="item-project" *ngFor="let project of projects">
-            <h3> {{project.name}} </h3>
-            <p><span>Aptitudes: </span> {{project.aptitudes.join(', ')}}</p>
-            <p><span>Duration: </span> {{project.since}} - {{project.until}} </p>
-            <p> {{project.description}} </p>
-            <section class="item-images">
-                <img *ngFor="let image of project.images" [src]="getImagePath(image.name)" alt="{{project.name}}" [attr.height]="image.height" [attr.width]="image.width">
-            </section>
-            <p><span>GitHub: </span> 
-                <a *ngFor="let link of project.github" href="link" target="_blank"> {{link}} <br> </a>
-            </p>
-        </section>
+        <div class="item-project" *ngFor="let project of projects">
+            <ul class="project-list">
+                <div class="item">
+                    <div class="header-item">
+                        <img [src]="getImagePath(project.front_page)" width="{{project.width_front_page}}" height="{{project.height_front_page}}" class="front_page">
+                        <div class="container-project-info">
+                            <h3> {{project.name}} </h3>
+                            <h3> {{project.associated_with}}</h3>
+                            <h4> {{project.since}} - {{project.until}} </h4>
+                        </div>
+                    </div>
+
+                    <div class="project-description">
+                        <div class="container-description">
+                            <p class="description"> {{project.first_description}} </p>
+                            <p class="description"> {{project.second_description}} </p>
+                        </div>
+                    </div>
+                    
+                    <div class="link">
+                        <a *ngFor="let link of project.github" href="link" target="_blank"> <img src="assets/img/GitHub.png" alt="GitHub Logo" width="60" height="60"> </a>
+                    </div>
+
+                    <div class="aptitudes">
+                        <p> {{project.aptitudes.join(' ')}}</p>
+                    </div>
+
+                </div>
+                <section class="item-images">
+                    <button (click)="prevImage(project)">&#9664;</button>
+                    <img [src]="getImagePath(project.images[project.currentImageIndex].name)" alt="{{project.name}}" [attr.height]="project.images[project.currentImageIndex].height" [attr.width]="project.images[project.currentImageIndex].width">
+                    <button (click)="nextImage(project)">&#9654;</button>
+                </section>
+            </ul>
+        </div>
     </section>
 </section>

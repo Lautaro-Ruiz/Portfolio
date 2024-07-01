@@ -1,0 +1,15 @@
+<section class="box-skills">
+    <section class="tech-stack">
+        <p class="title">Tech Stack </p>
+    </section>
+
+    <section class="skills">
+        <div class="skill-row" *ngFor="let row of getSkillRows()">
+          <div class="container-skill" *ngFor="let skill of row">
+            <h3 class="skill-name">{{skill.name}}</h3>
+            <img [src]="getImagePath(skill.image)" alt="{{skill.name}}" [width]="skill.width" [height]="skill.height" class="image">
+          </div>
+        </div>
+    </section>
+      
+</section>
