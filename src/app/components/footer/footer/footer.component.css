@@ -2,9 +2,9 @@
 @import '~font-awesome/css/font-awesome.min.css';
 
 *{
-    font-family:'Times New Roman', Times, serif;
-    color: white;
-    font-size: 1.3rem;
+    font-family: Kadwa;
+    color: rgb(137, 134, 134);
+    font-size: 1.2rem;
     background-color: #151517;
 }
 

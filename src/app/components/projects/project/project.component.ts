@@ -15,8 +15,8 @@ export class ProjectComponent {
       since: 'May. 2024', until: 'Jun. 2024', current_project: false,
       github: ['https://github.com/bauticalvo/c-18-30-java-react'],
       images: [
-        {name: 'L1.png', width: 1250, height: 700},
-        {name: 'Perfil-paciente.webp', width: 1250, height: 700}
+        {name: 'L1.png', width: 900, height: 550},
+        {name: 'Perfil-paciente.webp', width: 900, height: 550}
       ],
       associated_with: 'No country',
       front_page: 'No-Country.webp', width_front_page: 150, height_front_page: 95,
@@ -30,7 +30,7 @@ export class ProjectComponent {
       since: 'Mar. 2024', until: 'Jun. 2024', current_project: false,
       github: ['https://github.com/Lautaro-Ruiz/To-Do-List-'],
       images: [
-        {name: 'Home ToDo.webp', width: 1250, height: 600}
+        {name: 'Home ToDo.webp', width: 900, height: 500}
       ],
       associated_with: '',
       front_page: 'No-Country.webp', width_front_page: 150, height_front_page: 95,

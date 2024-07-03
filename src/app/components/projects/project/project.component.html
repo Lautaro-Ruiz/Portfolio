@@ -5,7 +5,7 @@
     </section>
 
     <section class="projects">
-        <div class="item-project" *ngFor="let project of projects">
+        <div class="item-project" *ngFor="let project of projects; let last = last" [ngClass]="{'project-divider': !last}">
             <ul class="project-list">
                 <div class="item">
                     <div class="header-item">
@@ -28,14 +28,10 @@
                         <a *ngFor="let link of project.github" href="link" target="_blank"> <img src="assets/img/GitHub.png" alt="GitHub Logo" width="60" height="60"> </a>
                     </div>
 
-                    <div class="aptitudes">
-                        <p> {{project.aptitudes.join(' ')}}</p>
-                    </div>
-
                 </div>
                 <section class="item-images">
                     <button (click)="prevImage(project)">&#9664;</button>
-                    <img [src]="getImagePath(project.images[project.currentImageIndex].name)" alt="{{project.name}}" [attr.height]="project.images[project.currentImageIndex].height" [attr.width]="project.images[project.currentImageIndex].width">
+                    <img class="image" [src]="getImagePath(project.images[project.currentImageIndex].name)" alt="{{project.name}}" [attr.height]="project.images[project.currentImageIndex].height" [attr.width]="project.images[project.currentImageIndex].width">
                     <button (click)="nextImage(project)">&#9654;</button>
                 </section>
             </ul>

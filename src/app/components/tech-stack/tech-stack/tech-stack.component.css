@@ -1,14 +1,15 @@
 *{
     font-family: Kadwa;
-    color: white;
+    color: black;
     font-size: 1.3rem;
-    background-color: #0D1F60;
+    background-color: rgba(241,245,255,1);
 }
 
 .tech-stack{
     display: flex;
     padding-left: 4rem;
     align-items: center;
+    background-color: rgba(241,245,255,1);
 }
 
 .title{
@@ -29,6 +30,11 @@
 }
 
 .box-skills{
+    margin-right: 12rem;
+    margin-left: 12rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
     border-bottom: solid white 0.1rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -46,10 +52,11 @@
 }
 
 .container-skill{
+    display: block;
     justify-content: center;
     align-items: center;
-    padding: 1.3rem;
-    padding-right: 1.4rem;
+
+    margin-right: 2.5rem;
 }
 
 .skill-name{
@@ -60,4 +67,12 @@
 .image{
     margin: 0%;
     padding: 0%;
+}
+
+.special-skill .image {
+    margin-top: 2rem; /* Ajusta el valor según el espacio deseado */
+}
+
+.skill-github .image {
+    margin-top: 1rem; 
 }

@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap');
 
 *{
-    margin:0%;
-    background-color: #071030;
+    box-sizing: border-box;
+    margin: 0%;
+    background-color:#fff;
 }

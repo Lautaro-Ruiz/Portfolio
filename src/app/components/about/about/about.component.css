@@ -1,16 +1,20 @@
 *{
     font-family: Kadwa;
-    color: white;
+    color: black;
     font-size: 1.3rem;
-    background-color: #0D1F60;
+    background-color: rgba(241,245,255,1);
 }
 
 .box-about{
     display:block;
     padding-top: 4rem;
     padding-bottom: 4rem;
+    margin-top: 2rem;
+    margin-right: 12rem;
+    margin-left: 12rem;
     align-items: center;
     border-bottom: solid 0.1rem white;
+    border-radius: 2rem;
 }
 
 .box-title{
@@ -38,7 +42,6 @@
 
 .content-of-about{
     padding-top: 1rem;
-    padding-left: 7rem;
     display: block;
     margin: 0%;
 }
@@ -55,22 +58,39 @@
 .item-info{
     display: flex;
     justify-content: center;
-    padding-left: 6rem;
+    align-items: center;
+    border: none;
+    box-shadow: 1px 2px 1px 2px gray;
+    border-radius: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 0.5rem;
+    padding: 1rem;
 }
 
 .container-list{
     display: flex;
     padding-left: 1rem;
+    align-items: center;
+    padding-top: 0.5rem;
 }
 
 .list{
     margin: 0%;
     padding: 0%;
+    display: block;
+    align-items: center;
 }
 
 .about-me{
-    width: 100rem;
-    padding-left: 9.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-text {
+    max-width: 950px; /* Ajusta este valor según tus necesidades */
+    width: 100%; /* Permite que ocupe el 100% del ancho disponible hasta el max-width */
+    text-align: left; /* Asegura que el texto esté alineado a la izquierda */
+    margin: 0 auto; /* Centra el bloque horizontalmente */
 }
 
 .education{
@@ -79,7 +99,7 @@
     padding-bottom: 2rem;
 }
 
-.section{
+.section-education{
     display: block;
     justify-content: center;
 }

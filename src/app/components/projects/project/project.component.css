@@ -1,8 +1,8 @@
 *{
     font-family: Kadwa;
-    color: white;
+    color: black;
     font-size: 1.3rem;
-    background-color: #071030;
+    background-color: rgba(241,245,255,1);
 }
 
 .code-slash{
@@ -11,10 +11,14 @@
 
 .box-projects{
     display:block;
-    padding-top: 4rem;
+    margin-top: 2rem;
+    padding-top: 3rem;
     padding-bottom: 4rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
     align-items: center;
     border-bottom: solid 0.1rem white;
+    border-radius: 2rem;
 }
 
 .box-title{
@@ -42,17 +46,21 @@
 
 .projects{
     padding: 1rem;
-    padding-left: 7rem;
-    display: block; 
+    padding-bottom: 0rem;
+    display: block;
+    justify-items: center;
+    justify-content: center;
 }
 
 .project-list{
-    padding-bottom: 4rem;
+    padding-bottom: 0rem;
+    padding-top: 1.5rem;
 }
 
 .header-item{
     display: flex;
-    
+    justify-content: center;
+    padding-top: 1rem;
 }
 
 .link{
@@ -70,18 +78,37 @@
 }
 
 .project-description{
-    padding-left: 9.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     padding-top: 1.5rem;
+    display: block;
+    justify-content: center;
+}
+
+.project-divider {
+    border-bottom: solid 0.1rem black;
+
 }
 
 .container-description{
-    border-left: solid white 0.2rem;
-    padding-left: 0.75rem;
     display: block;
+    justify-content: center;
+    justify-items:center ;
+
+    max-width: 900px; /* Ajusta este valor según tus necesidades */
+    width: 100%; /* Permite que ocupe el 100% del ancho disponible hasta el max-width */
+    margin: 0 auto; /* Centra el bloque horizontalmente */
+    text-align: left; /* Asegura que el texto esté alineado a la izquierda */
+}
+
+.item{
+    display: block;
+    justify-content: center;
 }
 
 .description{
-    width: 80rem;
+    display: flex;
+    justify-content: center;
 }
 
 .aptitudes{
@@ -90,7 +117,10 @@
     align-items: center;
 }
 
+
 .item-images {
+    padding: 0.8rem;
+    padding-bottom: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,7 +129,7 @@
 .item-images button {
     background: none;
     border: none;
-    color: white;
+    color: black;
     font-size: 4rem;
     cursor: pointer;
     padding: 0 1rem;
@@ -108,4 +138,10 @@
 .item-images img {
     max-width: 100%;
     max-height: 100%;
+}
+
+.image{
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 4px 5px gray;
 }

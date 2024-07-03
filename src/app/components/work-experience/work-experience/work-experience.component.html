@@ -6,22 +6,22 @@
 
     <section class="box-experiences">
         <div class="work-experience" *ngFor="let experience of work_experiences">
-            <ul>
+            <ul class="list">
                 <div class="item">
                     <div class="container-experience-info">
                         <img [src]="getImagePath(experience.image)" alt="{{experience.company}}" height="{{experience.height}}" width="{{experience.width}}">
                         <div class="experience-info">
-                            <h3>{{experience.charge}}</h3>
-                            <h3> {{experience.company}}</h3>
-                            <h4> {{experience.since}} {{experience.until}} </h4>
+                            <h3 class="paragraph">{{experience.charge}}</h3>
+                            <h3 class="paragraph"> {{experience.company}}</h3>
+                            <h4 class="paragraph"> {{experience.since}} {{experience.until}} </h4>
                         </div>
                     </div>
                     
                     <div class="experience-description">
                         <div class="container-description">
-                            <p>{{experience.description}}</p>
-                            <ul *ngFor="let positive_aspect of experience.positive_aspects">
-                                <p> {{positive_aspect }}</p>
+                            <p class="paragraph">{{experience.description}}</p>
+                            <ul *ngFor="let positive_aspect of experience.positive_aspects" class="box-positive-aspects">
+                                <p class="paragraph"> {{positive_aspect }}</p>
                             </ul>
                         </div>
                     </div>

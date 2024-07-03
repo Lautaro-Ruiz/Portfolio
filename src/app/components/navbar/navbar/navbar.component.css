@@ -1,46 +1,60 @@
 *{
-    color: white;
+    color: black;
     font-size: 1.3rem;
+    font-family: Kadwa ;
 }
 
 .box-navbar{
     margin-bottom: 0rem;
-    border-bottom: 0.2rem solid white;
-    padding-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
     padding-top: 1.5rem;
 }
 
 .navbar{
     display: flex;
+    justify-content:space-around;
+    width: 100%;
 }
 
 .box-home{
-    margin-right: 70rem;
-    padding-left: 5rem;
+
     #button-home{ 
         font-family: Kadwa;
-        border: 0rem;
+        padding: 0.5rem;
+        border: none;
+        border-radius: 1rem;
+        box-shadow: 2px 2px 2px 2px gray;
     }
 }
 
 .box-options{
     display: flex;
-    padding-right: 4rem;
+    justify-content: end;
     
     #button-experience{
         margin-right: 1rem;
         font-family: Kadwa;
-        border: 0rem;
+        padding: 0.5rem;
+        border: none;
+        border-radius: 1rem;
+        box-shadow: 2px 2px 2px 2px gray;
     }
 
     #button-projects{
         margin-right: 1rem;
         font-family: Kadwa;
-        border: 0rem;
+        padding: 0.5rem;
+        border: none;
+        border-radius: 1rem;
+        box-shadow: 2px 2px 2px 2px gray;
     }
 
     #button-contact{
         font-family: Kadwa;
-        border: 0rem;
+        padding: 0.5rem;
+        border: none;
+        border-radius: 1rem;
+        box-shadow: 2px 2px 2px 2px gray;
     }
 }

@@ -1,41 +1,54 @@
 *{
     font-family: Kadwa;
-    color: white;
+    color: black;
     font-size: 1.3rem;
 }
 
 .box-personal-information{
-    padding: 2rem;
+    padding-top: 1.5rem;
+    padding-right: 12rem;
+    padding-left: 12rem;
+    justify-content: center;
+    display: block;
 }
 
 .box-presentation{
     margin-right: 18rem;
+    
 }
 
 .presentation{
     font-size: 2rem;
+    background-color: rgba(241,245,255,1);
 }
 
 .about-me{
     font-size: 2rem;
+    background-color: rgba(241,245,255,1);
 }
 
 .rol{
-    color: #0057FF;
+    color: #b9173d;
+    background-color: rgba(241,245,255,1);
     font-size: 3.4rem;
 }
 
 .container-of-box{
+    background-color: rgba(241,245,255,1);
     padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-right: 0%;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 2rem;
 }
 
 .box-download-cv{
     display: flex;
     justify-content: center;
-    padding-top: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .download-cv{
@@ -53,14 +66,14 @@
 }
 
 .box-profile-picture{
-
+    background-color: rgba(241,245,255,1);
 }
 
 .circle-profile-picture{
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
-    background-color: #0057FF;
+    background-color: rgba(241,245,255,1);
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -70,9 +83,11 @@
 #profile-picture {
     width: 100%; /* Asegurarse de que el contenedor del perfil ocupe todo el círculo */
     height: 100%;
+    background-color: rgba(241,245,255,1);
 }
 
 .profile-picture-img {
+    background-color: rgba(241,245,255,1);
     width: 100%;
     height: 100%;
     object-fit: cover; /* Asegura que la imagen ocupe todo el contenedor y se recorte si es necesario */

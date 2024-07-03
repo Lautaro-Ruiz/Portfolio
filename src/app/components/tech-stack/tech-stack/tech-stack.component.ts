@@ -8,12 +8,12 @@ import { Component } from '@angular/core';
 export class TechStackComponent {
   skills = [
     {name: 'JavaScript', image: 'JS.webp', height: 140, width: 140},
-    {name: 'Angular', image: 'Angular.webp', height: 110, width: 110},
+    {name: 'C', image: 'C.webp', height: 70, width: 65},
     {name: 'Spring', image: 'Spring_Framework.webp', height: 140, width: 130},
-    {name: 'GitHub', image: 'GitHub.webp', height: 110, width: 140},
-    {name: 'MySQL', image: 'mysql.webp', height: 110, width: 100},
-    {name: 'C', image: 'C.webp', height: 90, width: 85},
-    {name: 'Java', image: 'Java-Logo.png', height: 120, width: 120},
+    {name: 'GitHub', image: 'GitHub.webp', height: 90, width: 120},
+    {name: 'MySQL', image: 'mysql.webp', height: 100, width: 80},
+    {name: 'Angular', image: 'Angular.webp', height: 100, width: 100},
+    {name: 'Java', image: 'Java-Logo.png', height: 100, width: 110},
   ]
 
   getImagePath(image: string): string {
