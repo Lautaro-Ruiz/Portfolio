@@ -1,8 +1,8 @@
 *{
     font-family: Kadwa;
-    color: black;
+    color: #ebebeb;
     font-size: 1.3rem;
-    background-color: rgba(241,245,255,1);
+    background-color: #212121;
 }
 
 .box-work-experience{
@@ -12,9 +12,10 @@
     padding-bottom: 4rem;
     margin-left: 12rem;
     margin-right: 12rem;
+    margin-bottom: 4rem;
     align-items: center;
-    border-bottom: solid 0.1rem white;
     border-radius: 2rem;
+    box-shadow: 0px 0px 25px 10px black;
 }
 
 .box-title{
@@ -27,7 +28,13 @@
     margin-right: 1rem;
 }
 
+.text{
+    color: white;
+    background-color: #414141;
+}
+
 .title{
+    color: white;
     font-size: 1.6rem;
     margin: 0rem;
     justify-content: center;
@@ -37,17 +44,14 @@
     padding-right: 1rem;
     padding-left: 1rem;
     border-radius: 2rem;
-    background: linear-gradient(
-        to right,
-        #1F4AE2 18%,
-        #11297C 81%
-    );
+    background-color: #b9173d;
 }
 
 .text-title{
     background-color: transparent;
     margin: 0rem;
     align-items: center;
+    color: white;
     justify-content: center;
 }
 
@@ -60,43 +64,59 @@
 }
 
 .work-experience{
-    border: solid 0.2rem black;
+    box-shadow: 3px 5px 4px 3px black;
+    border-radius: 3rem;
+    padding: 1rem;
+    background-color: #414141;
 }
 
 .item{
-
 }
 
 .list{
     margin: 0%;
     padding: 0%;
+    background-color: #414141;
 }
 
 .container-experience-info{
+    background-color: #414141;
     display: flex;
     justify-content: center;
     padding-top: 1rem;
 }
 
 .experience-info{
+    background-color: #414141;
     display: block;
     padding-left: 1rem;
     padding-top: 0.2rem;
 }
 
 .experience-description{
+    background-color: #414141;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 1.5rem;
+    border: none;
+
 }
 
 .container-description{
+    background-color: #414141;
     display: block;
     justify-content: center;
+    max-width: 900px; /* Ancho máximo del texto */
+    margin: 0 auto; /* Centrado horizontal del bloque */
 }
 
 .box-positive-aspects{
+    background-color: #414141;
     display: block;
     justify-content: center;
     text-align: justify;
+}
+
+.paragraph{
+    background-color: #414141;
 }

@@ -1,8 +1,8 @@
 *{
     font-family: Kadwa;
-    color: black;
+    color: #ebebeb;
     font-size: 1.3rem;
-    background-color: rgba(241,245,255,1);
+    background-color: #212121;
 }
 
 .box-about{
@@ -13,8 +13,9 @@
     margin-right: 12rem;
     margin-left: 12rem;
     align-items: center;
-    border-bottom: solid 0.1rem white;
     border-radius: 2rem;
+    box-shadow: 0px 0px 25px 10px black;
+    margin-bottom: 4rem;
 }
 
 .box-title{
@@ -33,11 +34,7 @@
     padding-right: 1rem;
     padding-left: 1rem;
     border-radius: 2rem;
-    background: linear-gradient(
-        to right,
-        #1F4AE2 18%,
-        #11297C 81%
-    );
+    background-color: #b9173d;
 }
 
 .content-of-about{
@@ -60,7 +57,7 @@
     justify-content: center;
     align-items: center;
     border: none;
-    box-shadow: 1px 2px 1px 2px gray;
+    box-shadow: 3px 5px 4px 3px black;
     border-radius: 2rem;
     margin-left: 2.5rem;
     margin-right: 0.5rem;
@@ -87,7 +84,7 @@
 }
 
 .about-me-text {
-    max-width: 950px; /* Ajusta este valor según tus necesidades */
+    max-width: 900px; /* Ajusta este valor según tus necesidades */
     width: 100%; /* Permite que ocupe el 100% del ancho disponible hasta el max-width */
     text-align: left; /* Asegura que el texto esté alineado a la izquierda */
     margin: 0 auto; /* Centra el bloque horizontalmente */

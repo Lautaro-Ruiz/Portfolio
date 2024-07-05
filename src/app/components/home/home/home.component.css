@@ -1,3 +1,10 @@
-header, body{
+header, body, footer{
     width: 100%;
+    background-color: #212121;
 }
+
+.relleno{
+    background-color:#0f0f0f ;
+    padding-bottom: 6rem;
+}
+
