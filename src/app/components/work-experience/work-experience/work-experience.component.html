@@ -19,9 +19,14 @@
                     
                     <div class="experience-description">
                         <div class="container-description">
-                            <p class="paragraph">{{experience.description}}</p>
+                            <p class="paragraph-experience-description">{{experience.description}}</p>
                             <ul *ngFor="let positive_aspect of experience.positive_aspects" class="box-positive-aspects">
-                                <p class="paragraph"> {{positive_aspect }}</p>
+                                <div class="positive_aspect">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed" class="svg">
+                                        <path d="M400-280v-400l200 200-200 200Z"/>
+                                    </svg>
+                                    <p class="paragraph"> {{positive_aspect }}</p>
+                                </div>
                             </ul>
                         </div>
                     </div>

@@ -5,9 +5,10 @@
     background-color: #212121;
 }
 
-.code-slash{
+.svg_code{
     margin-right: 1rem;
 }
+
 
 .box-projects{
     display:block;
@@ -100,7 +101,6 @@ a img{
 
 .project-divider {
     border-bottom: solid 0.1rem #fff;
-
 }
 
 .container-description{
@@ -131,6 +131,9 @@ a img{
     display: flex;
     justify-content: center;
     margin: 0%;
+    font-size: 1.22rem;
+    letter-spacing: 0.05rem;
+    padding-bottom: 0.5rem;
 }
 
 .aptitudes{

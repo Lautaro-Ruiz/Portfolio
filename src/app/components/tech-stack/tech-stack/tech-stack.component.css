@@ -6,10 +6,16 @@
     
 }
 
+.svg{
+    margin-right: 1rem;
+}
+
 .tech-stack{
     display: flex;
     padding-left: 4rem;
     align-items: center;
+    padding-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .title{
@@ -36,6 +42,9 @@
 }
 
 .skills{
+    display: block;
+    justify-content: center;
+    padding-left: 2rem;
 }
 
 .skill{
@@ -54,12 +63,13 @@
     display: block;
     justify-content: center;
     align-items: center;
-    margin-right: 2.5rem;
+    margin-right: 4.5rem;
 }
 
 .skill-name{
     display: flex;
     justify-content: center;
+    font-size: 1.5rem;
 }
 
 .image{

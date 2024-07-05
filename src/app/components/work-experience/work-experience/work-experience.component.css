@@ -112,11 +112,31 @@
 
 .box-positive-aspects{
     background-color: #414141;
-    display: block;
-    justify-content: center;
-    text-align: justify;
 }
 
 .paragraph{
     background-color: #414141;
+    font-size: 1.22rem;
+    display: flex;
+    align-items: center;
+    margin: 0%;
+    padding-left: 0.5rem;
+}
+
+.paragraph-experience-description{
+    background-color: #414141;
+    font-size: 1.22rem;
+    letter-spacing: 0.05rem;
+}
+
+.svg{
+    margin-right: 0.5rem;
+    flex-shrink: 0;
+}
+
+.positive_aspect{
+    background-color: #414141;
+    margin-bottom: 0.8rem;
+    display: flex;
+    letter-spacing: 0.05rem;
 }
