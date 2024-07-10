@@ -82,5 +82,10 @@
 }
 
 .skill-github .image {
-    margin-top: 1rem; 
+    margin-top: 1.15rem; 
+}
+
+.skill-spring .image{
+    margin-left: 0.5rem;
+    margin-top: 1.2rem;
 }

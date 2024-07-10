@@ -35,6 +35,7 @@
     padding-left: 1rem;
     border-radius: 2rem;
     background-color: #b9173d;
+    box-shadow: 3px 5px 4px 3px black;
 }
 
 .content-of-about{
@@ -99,11 +100,12 @@
     display: flex;
     justify-content: center;
     padding-bottom: 2rem;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     border-radius: 2rem;
     background-color: #b9173d;
     padding: 0.5rem;
     margin: 0%;
+    box-shadow: 3px 5px 4px 3px black;
 }
 
 .section-education{
@@ -116,4 +118,11 @@
     display: flex;
     justify-content: center;
     margin-bottom: 0.8rem;
+}
+
+.tecnologias{
+    color: #b9173d;
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-style: italic;
 }

@@ -45,6 +45,7 @@
     padding-left: 1rem;
     border-radius: 2rem;
     background-color: #b9173d;
+    box-shadow: 3px 5px 4px 3px black;
 }
 
 .text-title{

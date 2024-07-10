@@ -8,3 +8,33 @@ header, body, footer{
     padding-bottom: 6rem;
 }
 
+.box-arrow-up{
+    background-color: transparent;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ebebeb;
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    transition: opacity 0.3s ease;
+}
+
+.scroll-to-top.show {
+    display: block;
+    background-color: none;
+}
+
+.arrow-upward path{
+    background-color: transparent;
+}
+
+.arrow-upward{
+    background-color: transparent;
+}

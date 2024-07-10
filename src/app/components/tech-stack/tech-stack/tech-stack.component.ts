@@ -9,7 +9,7 @@ export class TechStackComponent {
   skills = [
     {name: 'JavaScript', image: 'JS.webp', height: 140, width: 140},
     {name: 'C', image: 'C.webp', height: 70, width: 65},
-    {name: 'Spring', image: 'Spring_Framework.webp', height: 140, width: 130},
+    {name: 'Spring', image: 'spring.png', height: 90, width: 130},
     {name: 'GitHub', image: 'GitHub.webp', height: 90, width: 120},
     {name: 'MySQL', image: 'mysql.webp', height: 100, width: 80},
     {name: 'Angular', image: 'Angular.webp', height: 100, width: 100},

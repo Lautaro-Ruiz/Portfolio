@@ -8,7 +8,7 @@
 
     <section class="skills">
         <div class="skill-row" *ngFor="let row of getSkillRows()">
-          <div class="container-skill" *ngFor="let skill of row" [ngClass]="{'special-skill': skill.name === 'C', 'skill-github': skill.name === 'GitHub'}" >
+          <div class="container-skill" *ngFor="let skill of row" [ngClass]="{'special-skill': skill.name === 'C', 'skill-github': skill.name === 'GitHub', 'skill-spring': skill.name === 'Spring' }" >
             <h3 class="skill-name">{{skill.name}}</h3>
             <img [src]="getImagePath(skill.image)" alt="{{skill.name}}" [width]="skill.width" [height]="skill.height" class="image">
           </div>

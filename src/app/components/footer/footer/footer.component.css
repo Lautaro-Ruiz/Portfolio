@@ -1,6 +1,6 @@
 *{
     font-family: Kadwa;
-    color: white;
+    color: #ebebeb;
     font-size: 1.2rem;
     margin: 0%;
     padding: 0%;
@@ -37,7 +37,8 @@
 
     #gmail{
         padding-left: 0.5rem;
-        padding-right: 3rem;        
+        padding-right: 3rem;  
+        color: #bcbcbc;      
     }
 }
 
