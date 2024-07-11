@@ -201,12 +201,14 @@
 
 @media (max-width: 480px) {
     .box-work-experience {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
         margin-left: 1rem;
         margin-right: 1rem;
     }
 
     .box-title {
-        padding-left: 0.5rem;
+        padding-left: 1rem;
         text-align: center;
     }
 
@@ -216,6 +218,10 @@
         margin-top: 0.5rem;
         background-color: #414141;
         padding: 0%;
+    }
+
+    .box-positive-aspects{
+        padding-left: 0.5rem;
     }
 
     .experience-description{
@@ -243,7 +249,7 @@
     }
 
     .title {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         padding: 0.2rem;
     }
 
@@ -252,7 +258,7 @@
     }
 
     .work-experience {
-        padding: 0.5rem;
+        
     }
 
     .briefcase {

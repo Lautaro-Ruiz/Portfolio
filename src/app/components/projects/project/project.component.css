@@ -103,6 +103,7 @@ a img{
 
 .project-divider {
     border-bottom: solid 0.1rem #fff;
+    margin-bottom: 1.5rem;
 }
 
 .container-description{
@@ -281,8 +282,18 @@ a img{
     }
 }
 
+.item-images-phone{
+    display: none;
+}
+
 @media (max-width: 480px) {
+    .item-images{
+        display: none;
+    }
+    
     .box-projects {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
         margin-left: 1rem;
         margin-right: 1rem;
     }
@@ -307,12 +318,12 @@ a img{
     }
 
     .box-title {
-        padding-left: 0.5rem;
+        padding-left: 1rem;
         text-align: center;
     }
 
     .title {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         padding: 0.2rem;
     }
 
@@ -356,5 +367,41 @@ a img{
     .link img {
         width: 40px;
         height: 40px;
+    }
+
+    .image-phone{
+        display: block;
+        justify-content: center;
+        width: 415px;
+        height: 320px;
+        border: none;
+        border-radius: 2rem;
+        box-shadow: 3px 2px 4px 3px black;
+    }
+
+    .item-images-phone button{
+        font-size: 1.7rem;
+        padding: 0 0.4rem;
+        background: none;
+        border: none;
+        color: white;        
+        cursor: pointer;
+        padding: 0 1rem;
+    }
+
+    .item-images-phone{
+        display: block;
+        padding: 0 1rem;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0.5rem;
+        margin-top: 2rem;
+    }
+
+    .box-buttons-phone{
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: center;
     }
 }

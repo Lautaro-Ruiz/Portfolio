@@ -41,6 +41,14 @@
                     <img class="image" [src]="getImagePath(project.images[project.currentImageIndex].name)" alt="{{project.name}}" [attr.height]="project.images[project.currentImageIndex].height" [attr.width]="project.images[project.currentImageIndex].width">
                     <button *ngIf="project.images.length > 1" (click)="nextImage(project)">&#9654;</button>
                 </section>
+
+                <section class="item-images-phone">
+                    <img class="image-phone" [src]="getImagePath(project.images[project.currentImageIndex].name)" alt="{{project.name}}" [attr.height]="project.images[project.currentImageIndex].height" [attr.width]="project.images[project.currentImageIndex].width">
+                    <div class="box-buttons-phone">
+                        <button *ngIf="project.images.length > 1" (click)="prevImage(project)">&#9664;</button>
+                        <button *ngIf="project.images.length > 1" (click)="nextImage(project)">&#9654;</button>
+                    </div>
+                </section>
             </ul>
         </div>
     </section>
