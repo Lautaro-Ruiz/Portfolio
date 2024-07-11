@@ -31,6 +31,7 @@
         border-radius: 2rem;
         box-shadow: 3px 5px 4px 3px black;
         background-color: #b9173d;
+        transition: 0.5s;
     }
 }
 
@@ -46,6 +47,7 @@
         border-radius: 2rem;
         box-shadow: 3px 5px 4px 3px black;
         background-color: #b9173d;
+        transition: 0.5s;
     }
 
     #button-projects{
@@ -56,6 +58,7 @@
         border-radius: 2rem;
         box-shadow: 3px 5px 4px 3px black;
         background-color: #b9173d;
+        transition: 0.5s;
     }
 
     #button-about{
@@ -66,6 +69,7 @@
         border-radius: 2rem;
         box-shadow: 3px 5px 4px 3px black;
         background-color: #b9173d;
+        transition: 0.5s;
     }
 
     #button-contact{
@@ -75,9 +79,71 @@
         border-radius: 2rem;
         box-shadow: 3px 5px 4px 3px black;
         background-color: #b9173d;
-        margin-right: 0;
+        transition: 0.5s;
     }
 }
+
+#button-contact:hover{
+    background-color: #b9173daf;
+    box-shadow: 0px 0px 1px 1px white;
+}
+
+#button-experience:hover{
+    background-color: #b9173daf;
+    box-shadow: 0px 0px 1px 1px white;
+}
+
+#button-projects:hover{
+    background-color: #b9173daf;
+    box-shadow: 0px 0px 1px 1px white;
+}
+
+#button-about:hover{
+    background-color: #b9173daf;
+    box-shadow: 0px 0px 1px 1px white;
+}
+
+#button-home:hover{
+    background-color: #b9173daf;
+    box-shadow: 0px 0px 1px 1px white;
+}
+
+.menu {
+    display: none; /* Ocultar el menú desplegable por defecto */
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .menu.active {
+    display: flex; /* Mostrar el menú cuando isMenuOpen es true */
+    flex-direction: column; /* Asegura que los elementos estén en columna */
+  }
+  
+  .menu a {
+    color: #ebebeb;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu a:hover {
+    background-color: #414141;
+  }
+  
+  .toggle-menu {
+    display: none; /* Ocultar por defecto en pantallas grandes */
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1.5rem; /* Tamaño del icono de hamburguesa */
+    color: #ebebeb; /* Color del icono de hamburguesa */
+  }
+  
+  .phone-menu {
+    display: none; /* Ocultar por defecto */
+  }
 
 @media (max-width: 768px) {
     .navbar {
@@ -108,5 +174,59 @@
 
     #button-contact {
         margin-bottom: 0; /* No margin for the last button */
+    }
+}
+
+@media (max-width: 480px){
+    .box-navbar{
+        display: none;
+    }
+
+    .phone-menu{
+        display: block;
+    }
+
+    .toggle-menu {
+        display: block;
+    }
+
+    .menu {
+        background-color: #0f0f0f;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .toggle-button{
+        display: block;
+    }
+
+    .home,
+    .experience,
+    .projects,
+    .about,
+    .contact {
+        margin: 0 0.5rem 1rem 0.5rem;
+        padding: 0.1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-family: Kadwa;
+        width: 40%;
+        border: none;
+        border-radius: 2rem;
+        box-shadow: 3px 5px 4px 3px black;
+        background-color: #b9173d;
+        transition: 0.5s;
+    }
+
+    .contact{
+        margin-bottom: 0rem;
+    }
+
+    a{
+        font-size: 1.3rem;
     }
 }

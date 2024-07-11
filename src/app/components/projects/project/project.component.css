@@ -70,7 +70,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     max-width: 500px;
     margin: 0 auto;
 }
@@ -219,6 +220,11 @@ a img{
         margin-right: 3rem;
     }
 
+    .header-item{
+        padding: 0%;
+        border-radius: 50%;
+    }
+
     .box-title {
         padding-left: 2rem;
         margin-bottom: 1rem;
@@ -243,6 +249,11 @@ a img{
     .box-projects {
         margin-left: 1.2rem;
         margin-right: 1.2rem;
+    }
+
+    .header-item{
+        max-width: 550px;
+        margin: 0 auto;
     }
 
     .box-title {
@@ -276,6 +287,25 @@ a img{
         margin-right: 1rem;
     }
 
+    .projects{
+        padding: 0%;
+    }
+
+    .project-list{
+        margin: 0%;
+    }
+
+    .header-item{
+        max-width: 330px;
+        margin: 0 auto;
+        margin-top: 0.5rem;
+    }
+    
+    .front_page{
+        width: 140px;
+        height: 80px;
+    }
+
     .box-title {
         padding-left: 0.5rem;
         text-align: center;
@@ -288,6 +318,8 @@ a img{
 
     .item {
         padding: 0.5rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
     }
 
     .briefcase {
@@ -296,10 +328,33 @@ a img{
     }
 
     .text {
-        font-size: 1rem;
+        font-size: 16px;
+    }
+
+    .text h4{
+        font-size: 14px ;
+    }
+
+    .project-description{
+        max-width: 400px;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
 
     .description {
-        font-size: 1rem;
+        font-size: 0.86rem;
+        max-width: 390px;
+        text-align: justify;
+    }
+
+    .link{
+        max-width: 340px;
+        margin: 0 auto;
+        padding: 0%;
+    }
+
+    .link img {
+        width: 40px;
+        height: 40px;
     }
 }
