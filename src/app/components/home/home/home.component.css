@@ -1,7 +1,34 @@
-header, body, footer{
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color:#0f0f0f ;
+  }
+  
+  /* Flexbox for main layout */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  header {
+    background-color:#0f0f0f ;
+    color: #ffffff;
+    padding: 1rem;
+  }
+
+/* header, body, footer{
     width: 100%;
     background-color: #212121;
-}
+} */
 
 .relleno{
     background-color:#0f0f0f ;
@@ -38,3 +65,13 @@ header, body, footer{
 .arrow-upward{
     background-color: transparent;
 }
+
+@media (max-width: 768px) {
+    .box-arrow-up {
+      bottom: 4rem;
+    }
+  
+    .scroll-to-top {
+      bottom: 12%;
+    }
+  }

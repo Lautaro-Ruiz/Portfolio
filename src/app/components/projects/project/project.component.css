@@ -212,3 +212,94 @@ a img{
     background-color: #414141;
     display: inline-block;
   }
+
+  @media (max-width: 1024px) {
+    .box-projects {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .box-title {
+        padding-left: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .project-list {
+        padding: 0;
+    }
+
+    .item {
+        margin: 0.5rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .item-images {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 768px) {
+    .box-projects {
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+    }
+
+    .box-title {
+        padding-left: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .title {
+        font-size: 1.4rem;
+    }
+
+    .item {
+        margin: 0.5rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .briefcase {
+        width: 40px;
+        height: 40px;
+    }
+
+    .text {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .box-projects {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .box-title {
+        padding-left: 0.5rem;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 1.2rem;
+        padding: 0.2rem;
+    }
+
+    .item {
+        padding: 0.5rem;
+    }
+
+    .briefcase {
+        width: 30px;
+        height: 30px;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+}

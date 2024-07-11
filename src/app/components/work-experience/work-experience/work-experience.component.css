@@ -61,7 +61,8 @@
     display: flex;
     justify-items: center;
     justify-content: center;
-    margin: 0%;    
+    flex-wrap: wrap;
+    margin: 0%;
 }
 
 .work-experience{
@@ -100,15 +101,14 @@
     padding-right: 2rem;
     padding-top: 1.5rem;
     border: none;
-
 }
 
 .container-description{
     background-color: #414141;
     display: block;
     justify-content: center;
-    max-width: 900px; /* Ancho máximo del texto */
-    margin: 0 auto; /* Centrado horizontal del bloque */
+    max-width: 900px; 
+    margin: 0 auto; 
 }
 
 .box-positive-aspects{
@@ -140,4 +140,92 @@
     margin-bottom: 0.8rem;
     display: flex;
     letter-spacing: 0.05rem;
+}
+
+@media (max-width: 1024px) {
+    .box-work-experience {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .box-title {
+        padding-left: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .box-experiences{
+        padding: 0%;
+    }
+
+    .work-experience {
+        margin: 0.5rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .box-work-experience {
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+    }
+
+    .box-title {
+        padding-left: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .title {
+        font-size: 1.4rem;
+    }
+
+    .work-experience {
+        margin: 0.5rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .briefcase {
+        width: 40px;
+        height: 40px;
+    }
+
+    .text {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .box-work-experience {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .box-title {
+        padding-left: 0.5rem;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 1.2rem;
+        padding: 0.2rem;
+    }
+
+    .work-experience {
+        padding: 0.5rem;
+    }
+
+    .briefcase {
+        width: 30px;
+        height: 30px;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    .paragraph,
+    .paragraph-experience-description {
+        font-size: 1rem;
+    }
 }

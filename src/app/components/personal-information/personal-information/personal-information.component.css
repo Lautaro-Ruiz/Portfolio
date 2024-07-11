@@ -9,7 +9,9 @@
     padding-right: 12rem;
     padding-left: 12rem;
     justify-content: center;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .box-presentation{
@@ -34,7 +36,6 @@
 }
 
 .container-of-box{
-
     padding-top: 4rem;
     padding-bottom: 4rem;
     padding-right: 0%;
@@ -47,8 +48,7 @@
 .box-download-cv{
     display: flex;
     justify-content: center;
-
-    padding-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .download-cv{
@@ -57,11 +57,12 @@
     padding: 0.6rem;
     padding-right: 0.7rem;
     padding-left: 0.7rem;
-    border: none; /* Quita el borde por defecto del botón */
+    border: none; 
     background-color: #b9173d;
     border: none;
     border-radius: 2rem;
     box-shadow: 3px 5px 4px 3px black;
+    cursor: pointer;
 }
 
 .box-profile-picture{
@@ -80,12 +81,105 @@
 }
 
 #profile-picture {
-    width: 100%; /* Asegurarse de que el contenedor del perfil ocupe todo el círculo */
+    width: 100%; 
     height: 100%;
 }
 
 .profile-picture-img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Asegura que la imagen ocupe todo el contenedor y se recorte si es necesario */
-  }
+    object-fit: cover; 
+}
+
+@media (max-width: 1024px) {
+    .box-personal-information {
+        padding-right: 5rem;
+        padding-left: 5rem;
+    }
+
+    .box-presentation {
+        margin-right: 0;
+    }
+
+    .presentation,
+    .about-me {
+        font-size: 1.8rem;
+    }
+
+    .box-presentation{
+        margin-right: 0.5rem;
+    }
+
+    .box-profile-picture{
+        margin-left: 0.2rem;
+    }
+
+    .rol {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .box-personal-information {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+    .presentation,
+    .about-me {
+        font-size: 1.6rem;
+    }
+
+    .rol {
+        font-size: 2.5rem;
+    }
+
+    .container-of-box {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .box-presentation{
+        margin-right: 0.5rem;
+    }
+
+    .box-profile-picture{
+        margin-left: 0.2rem;
+    }
+
+    .circle-profile-picture {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .download-cv {
+        font-size: 1.2rem;
+        padding: 0.4rem 0.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .box-personal-information {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .presentation,
+    .about-me {
+        font-size: 1.4rem;
+    }
+
+    .rol {
+        font-size: 2rem;
+    }
+
+    .circle-profile-picture {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .download-cv {
+        font-size: 1rem;
+        padding: 0.3rem 0.5rem;
+    }
+}

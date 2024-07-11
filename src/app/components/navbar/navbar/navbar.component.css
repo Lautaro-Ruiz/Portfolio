@@ -75,6 +75,38 @@
         border-radius: 2rem;
         box-shadow: 3px 5px 4px 3px black;
         background-color: #b9173d;
+        margin-right: 0;
     }
 }
 
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-home {
+        margin-bottom: 1rem;
+    }
+
+    .box-options {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #button-experience,
+    #button-projects,
+    #button-about,
+    #button-contact {
+        margin-left: 0rem;
+        width: 90%;
+        padding: 0.2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    #button-contact {
+        margin-bottom: 0; /* No margin for the last button */
+    }
+}
