@@ -202,9 +202,9 @@
 @media (max-width: 480px) {
     .box-work-experience {
         padding-top: 2rem;
-        padding-bottom: 2rem;
         margin-left: 1rem;
         margin-right: 1rem;
+        margin-bottom: 2rem;
     }
 
     .box-title {
@@ -287,6 +287,10 @@
 }
 
 @media (max-width: 412px){
+    .box-work-experience {
+        margin-bottom: 1rem;
+    }
+
     .text{
         font-size: 0.9rem;
     }

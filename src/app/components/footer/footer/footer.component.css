@@ -1,4 +1,4 @@
-*{
+* {
     font-family: Kadwa;
     color: #ebebeb;
     font-size: 1.2rem;
@@ -7,43 +7,85 @@
     background-color: #212121;
 }
 
-.box-footer{
+.box-footer {
     box-shadow: 0px 1px 25px 10px black;
 }
 
-.footer-items{
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
+.footer-items {
+    padding: 0.8rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.linkedin, .google, .github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.item-google {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.linkedin{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    padding-right: 3rem;
+#gmail {
+    padding-left: 0.5rem;
+    color: #bcbcbc;
 }
 
-.item-google{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    #google_logo{
-
+/* Media Queries */
+@media (max-width: 1024px) {
+    .footer-items {
+        padding: 0.6rem 0;
     }
 
-    #gmail{
-        padding-left: 0.5rem;
-        padding-right: 3rem;  
-        color: #bcbcbc;      
+    .linkedin, .google, .github {
+        margin: 0 0.8rem;
     }
 }
 
-.github{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media (max-width: 768px) {
+    .footer-items {
+        padding: 0.4rem 0;
+    }
+
+    .linkedin, .google, .github {
+        margin: 0 0.5rem;
+    }
+
+    #gmail {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-items {
+        padding: 0.3rem 0;
+    }
+
+    .linkedin, .google, .github {
+        margin: 0.5rem 1rem;
+        flex-direction: column; /* Coloca los elementos en una columna */
+    }
+
+    .linkedin-logo{
+        height: 50px;
+        width: 50px;
+    }
+
+    .google-logo,
+    .github-logo{
+        height: 38px;
+        width: 38px;
+    }
+
+    #gmail {
+        padding-left: 0.4rem;
+        text-align: center; /* Centra el texto del correo electrónico */
+        font-size: 0.9rem;
+    }
 }

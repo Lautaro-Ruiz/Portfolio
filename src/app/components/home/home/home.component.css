@@ -74,4 +74,10 @@ body, html {
     .scroll-to-top {
       bottom: 12%;
     }
-  }
+}
+
+@media (max-width: 480px){
+    .relleno{
+      padding-bottom: 3rem;
+    }
+}
