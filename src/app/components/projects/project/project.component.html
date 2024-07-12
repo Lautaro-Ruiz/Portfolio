@@ -36,6 +36,7 @@
                     </div>
 
                 </div>
+                
                 <section class="item-images">
                     <button *ngIf="project.images.length > 1" (click)="prevImage(project)">&#9664;</button>
                     <img class="image" [src]="getImagePath(project.images[project.currentImageIndex].name)" alt="{{project.name}}" [attr.height]="project.images[project.currentImageIndex].height" [attr.width]="project.images[project.currentImageIndex].width">
