@@ -49,19 +49,19 @@
 
 .skill{
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     justify-content: center;
 }
 
 .skill-row {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .container-skill{
     padding-bottom: 1rem;
     display: block;
-    justify-content: center;
     align-items: center;
     margin-right: 4.5rem;
 }
@@ -88,4 +88,160 @@
 .skill-spring .image{
     margin-left: 0.5rem;
     margin-top: 1.2rem;
+}
+
+@media (max-width: 1024px) {
+    .box-skills {
+        margin: 2rem 6rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .box-skills {
+        margin: 2rem 3rem;
+    }
+
+    .tech-stack {
+        padding-left: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .box-skills {
+        margin: 1rem;
+        padding: 2rem 1rem;
+    }
+
+    .tech-stack {
+        padding-left: 1rem;
+    }
+
+    .title {
+        font-size: 1.4rem;
+    }
+
+    .skills {
+        max-width: 430px;
+        padding: 0%;
+    }
+
+    .container-skill{
+        margin-right: 2rem;
+    }
+
+    .skill-row{
+        max-width: 420px;
+        justify-content:center;
+    }
+
+    .container-skill {
+        margin: 1rem;
+    }
+
+    .skill-name {
+        font-size: 1.2rem;
+    }
+
+    .special-skill .image{
+        margin-top: 1rem;
+        width: 65px;
+        height: 65px;
+    }
+
+    .skill-spring .image {
+        margin-top: 0.8rem;
+        width: 110px;
+        height: 75px;
+    }
+
+    .skill-js .image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .skill-github .image{
+        width: 100px;
+        height: 80px;
+    }
+
+    .skill-mysql .image{
+        margin-top: 0.8rem;
+        width: 70px;
+        height: 90px;
+    }
+
+    .skill-java .image{
+        width: 100px;
+        height: 90px;
+    }
+}
+
+@media (max-width: 412px) {
+    .box-skills {
+        margin: 1rem;
+        padding: 1rem 0.5rem;
+    }
+
+    .tech-stack {
+        padding-left: 1rem;
+    }
+
+    .title {
+        font-size: 1.4rem;
+    }
+
+    .skills {
+        max-width: 412px;
+        padding: 0%;
+    }
+
+    .container-skill{
+        margin-right: 1rem;
+    }
+
+    .skill-row{
+        max-width: 400px;
+        justify-content:center;
+    }
+
+    .container-skill {
+        margin: 0.7rem;
+    }
+
+    .skill-name {
+        font-size: 1.2rem;
+    }
+
+    .special-skill .image{
+        margin-top: 1.1rem;
+        width: 60px;
+        height: 60px;
+    }
+
+    .skill-spring .image {
+        margin-top: 0.9rem;
+        width: 100px;
+        height: 70px;
+    }
+
+    .skill-js .image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .skill-github .image{
+        width: 100px;
+        height: 80px;
+    }
+
+    .skill-mysql .image{
+        margin-top: 0.8rem;
+        width: 70px;
+        height: 90px;
+    }
+
+    .skill-java .image{
+        width: 100px;
+        height: 90px;
+    }
 }
