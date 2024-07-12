@@ -287,11 +287,19 @@
         max-width: 330px;
         margin: 0% auto;
         margin-top: 0.5rem;
+        background-color: #414141;
+        padding: 0%;
+        display: flex;
+        align-items: center;
+    }
+
+    .container-project-info{
+        padding-top: 0.5rem;
     }
   
     .front_page {
-      width: 140px;
-      height: 80px;
+      width: 130px;
+      height: 70px;
     }
   
     .box-title {
@@ -317,7 +325,7 @@
     }
     
     .text{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .text h4 {
@@ -336,7 +344,7 @@
     }
   
     .link {
-      max-width: 340px;
+      max-width: 280px;
     }
   
     .link img {
@@ -378,3 +386,54 @@
     }
   }
   
+
+  @media (max-width: 412px){
+    .item-images {
+        display: none;
+      }
+  
+      .box-projects {
+        padding: 1rem 1rem;
+      }
+
+    .image-phone {
+        display: block;
+        width: 405px;
+        height: 320px;
+        border: none;
+        border-radius: 2rem;
+        box-shadow: 3px 2px 4px 3px black;
+      }
+    
+      .item-images-phone button {
+        font-size: 1.7rem;
+        padding: 0 0.4rem;
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+      }
+    
+      .item-images-phone {
+        background-color: #212121;
+        display: block;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: -2rem;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8rem;
+      }
+    
+      .box-buttons-phone {
+        max-width: 410px;
+        margin: 0 auto;
+        margin-left: 0%;
+        margin-right: 0%;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        margin-top: 1.4rem;
+        border-radius: 2rem;
+      }
+  }
