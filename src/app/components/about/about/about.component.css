@@ -10,8 +10,8 @@
     padding-top: 4rem;
     padding-bottom: 4rem;
     margin-top: 2rem;
-    margin-right: 12rem;
-    margin-left: 12rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
     align-items: center;
     border-radius: 2rem;
     box-shadow: 0px 0px 25px 10px black;
@@ -129,19 +129,78 @@
     font-style: italic;
 }
 
-@media (max-width: 1024px) {
+
+@media (min-width: 901px) and (max-width: 1200px) {
     .box-about {
-        margin: 2rem 6rem;
+       margin-right: 1.2rem;
+       margin-left: 1.2rem;
+       padding: 3rem 2rem;
+    }
+
+    .box-title{
+        padding-left: 0%;
+    }
+
+    .item-education{
+        flex: 1 1 45%; /* Adjusted */
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .item-info{
+        margin-left: 0%;
+        margin-right: 0.5rem;
+    }
+
+    .text{
+        font-size: 1rem;
+    }
+  
+    .text h4 {
+        font-size: 0.3rem;
+    }
+
+    .tecnologias{
+        font-size: 1rem;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .box-about {
         margin: 2rem 3rem;
+        padding: 3rem 2rem;
     }
 
     .box-title {
         padding-left: 2rem;
+    }
+
+    .box-education{
+        display: block;
+        justify-content: center;
+    }
+
+    .item-education{
+        display: block;
+        justify-content: center;
+    }
+
+    .item-info{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 1.5rem;
+    }
+
+    .text{
+        font-size: 1rem;
+    }
+  
+    .text h4 {
+        font-size: 0.3rem;
+    }
+
+    .tecnologias{
+        font-size: 1rem;
     }
 }
 

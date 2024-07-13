@@ -6,13 +6,10 @@
 }
 
 .box-work-experience{
-    display:block;
-    justify-content: center;
+    display: block; 
     padding-top: 4rem;
     padding-bottom: 4rem;
-    margin-left: 12rem;
-    margin-right: 12rem;
-    margin-bottom: 4rem;
+    margin: 0 auto;
     align-items: center;
     border-radius: 2rem;
     box-shadow: 0px 0px 25px 10px black;
@@ -63,6 +60,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 0%;
+    gap: 1rem;
 }
 
 .work-experience{
@@ -143,10 +141,30 @@
     letter-spacing: 0.05rem;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1201px){
     .box-work-experience {
-        margin-left: 3rem;
-        margin-right: 3rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    .box-title {
+        padding-left: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .box-experiences{
+        padding: 0%;
+    }
+
+    .work-experience {
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+    }
+}
+
+@media (max-width: 1200px){
+    .box-work-experience {
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
     }
 
     .box-title {
@@ -159,9 +177,29 @@
     }
 
     .work-experience {
-        margin: 0.5rem;
-        margin-left: 1.5rem;
         margin-right: 1.5rem;
+        margin-left: 1.5rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .box-work-experience {
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+    }
+
+    .box-title {
+        padding-left: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .box-experiences{
+        padding: 0%;
+    }
+
+    .work-experience {
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
     }
 }
 
@@ -185,9 +223,8 @@
     }
 
     .work-experience {
-        margin: 0.5rem;
-        margin-left: 1.5rem;
         margin-right: 1.5rem;
+        margin-left: 1.5rem;
     }
 
     .briefcase {
@@ -243,7 +280,7 @@
 
     .front_page{
         width: 130px;
-        height: 70px;
+        height: 80px;
     }
 
     .item{
