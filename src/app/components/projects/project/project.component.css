@@ -286,7 +286,7 @@
     .header-item {
         max-width: 330px;
         margin: 0% auto;
-        margin-top: 0.5rem;
+        margin-top: 1.2rem;
         background-color: #414141;
         padding: 0%;
         display: flex;
@@ -354,6 +354,7 @@
   
     .image-phone {
       display: block;
+      margin: 0 auto;
       width: 415px;
       height: 320px;
       border: none;
@@ -376,15 +377,43 @@
       margin: 2rem auto 0.5rem;
       align-items: center;
       justify-content: center;
+      text-align: center;
     }
   
     .box-buttons-phone {
-        background-color: #212121;
+      background-color: #212121;
       display: flex;
       justify-content: center;
       margin-top: 0.5rem;
     }
   }
+
+  @media (min-width: 413px) and (max-width: 479px) {
+    .item-images-phone {
+        display: block;
+        text-align: center; /* Centra la imagen horizontalmente */
+    }
+
+    .image-phone {
+        display: block;
+        margin: 0 auto; /* Centra la imagen */
+        width: 410px; /* Ajusta el ancho de la imagen según sea necesario */
+        max-width: 100%;
+        height: 305px; /* Asegura que la imagen mantenga su proporción */
+        border: none;
+        border-radius: 2rem;
+        box-shadow: 3px 2px 4px 3px black;
+    }
+    
+    .box-buttons-phone {
+        max-width: 100%;
+        margin: 0 auto;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        margin-top: 0.5rem;
+    }
+}
   
 
   @media (max-width: 412px){
@@ -398,6 +427,7 @@
 
     .image-phone {
         display: block;
+        margin: 0 auto;
         width: 405px;
         height: 320px;
         border: none;
@@ -426,6 +456,7 @@
       }
     
       .box-buttons-phone {
+        text-align: center;
         max-width: 410px;
         margin: 0 auto;
         margin-left: 0%;

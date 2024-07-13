@@ -18,11 +18,11 @@
             <button id="toggle-menu" class="toggle-menu" (click)="toggleMenu()">&#9776;</button> <!-- Botón toggle -->
         </div>
         <div class="menu" *ngIf="isMenuOpen"> <!-- Menú desplegable -->
-          <button class="home"><a href="#main-menu" class="link">Home</a></button>
-          <button class="experience"> <a href="#work-experience" class="link">Experience</a> </button>
-          <button class="projects"> <a href="#projects" class="link">Projects</a> </button>
-          <button class="about"> <a href="#about" class="link">About</a> </button>
-          <button class="contact"><a href="#contact" class="link">Contact</a></button>
+          <button class="home" (click)="toggleMenu()"><a href="#main-menu" class="link">Home</a></button>
+          <button class="experience" (click)="toggleMenu()"> <a href="#work-experience" class="link">Experience</a> </button>
+          <button class="projects" (click)="toggleMenu()"> <a href="#projects" class="link">Projects</a> </button>
+          <button class="about" (click)="toggleMenu()"> <a href="#about" class="link">About</a> </button>
+          <button class="contact" (click)="toggleMenu()"><a href="#contact" class="link">Contact</a></button>
         </div>
     </div>
 </section>

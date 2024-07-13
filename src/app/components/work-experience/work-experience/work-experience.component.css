@@ -128,6 +128,7 @@
     background-color: #414141;
     font-size: 1.22rem;
     letter-spacing: 0.05rem;
+    text-align: justify;
 }
 
 .svg{
@@ -230,6 +231,10 @@
         padding-left: 0.5rem;
     }
 
+    .positive_aspect{
+        margin-bottom: 0.5rem;
+    }
+
     .experience-description{
         max-width: 400px;
         padding-left: 0.5rem;
@@ -267,10 +272,6 @@
         padding: 0%;
     }
 
-    .work-experience {
-        
-    }
-
     .briefcase {
         width: 45px;
         height: 45px;
@@ -282,7 +283,11 @@
 
     .paragraph,
     .paragraph-experience-description {
-        font-size: 0.86rem;
+        font-size: 0.9rem;
+    }
+
+    .paragraph{
+        
     }
 }
 
@@ -292,7 +297,7 @@
     }
 
     .text{
-        font-size: 0.9rem;
+        font-size: 0.88rem;
     }
 
     .text h4 {

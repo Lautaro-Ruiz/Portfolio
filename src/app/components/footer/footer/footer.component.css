@@ -89,3 +89,14 @@
         font-size: 0.9rem;
     }
 }
+
+@media (max-width: 412px){
+    .footer-items {
+        padding: 0.2rem 0;
+    }
+
+    .linkedin, .google, .github {
+        margin: 0.35rem 0.8rem;
+        flex-direction: column; /* Coloca los elementos en una columna */
+    }
+}

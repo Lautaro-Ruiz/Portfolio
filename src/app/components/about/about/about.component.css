@@ -95,6 +95,7 @@
 .paragraph{
     font-size: 1.22rem;
     letter-spacing: 0.05rem;
+    text-align: justify;
 }
 
 .education{
