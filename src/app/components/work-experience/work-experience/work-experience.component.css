@@ -347,3 +347,10 @@
         font-size: 0.85rem;
     }
 }
+
+@media (max-width: 388px){
+    .text{
+        font-size: 0.80rem;
+    }
+}
+

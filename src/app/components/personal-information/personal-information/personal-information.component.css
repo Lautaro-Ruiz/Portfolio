@@ -91,6 +91,34 @@
     object-fit: cover; 
 }
 
+@media (min-width: 1025px) and (max-width:1350px){
+    .box-personal-information {
+        padding-right: 5rem;
+        padding-left: 5rem;
+    }
+
+    .box-presentation {
+        margin-right: 0;
+    }
+
+    .presentation,
+    .about-me {
+        font-size: 1.8rem;
+    }
+
+    .box-presentation{
+        margin-right: 3rem;
+    }
+
+    .box-profile-picture{
+        margin-left: 0.5rem;
+    }
+
+    .rol {
+        font-size: 3rem;
+    }
+}
+
 @media (max-width: 1024px) {
     .box-personal-information {
         padding-right: 5rem;
@@ -107,7 +135,7 @@
     }
 
     .box-presentation{
-        margin-right: 0.5rem;
+        margin-right: 1rem;
     }
 
     .box-profile-picture{
@@ -140,7 +168,7 @@
     }
 
     .box-presentation{
-        margin-right: 0.5rem;
+        margin-right: 1rem;
     }
 
     .box-profile-picture{

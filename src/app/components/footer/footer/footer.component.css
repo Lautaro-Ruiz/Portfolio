@@ -100,3 +100,14 @@
         flex-direction: column; /* Coloca los elementos en una columna */
     }
 }
+
+@media (max-width: 389px){
+    .footer-items {
+        padding: 0.1rem 0;
+    }
+
+    .linkedin, .google, .github {
+        margin: 0.25rem 0.6rem;
+        flex-direction: column; /* Coloca los elementos en una columna */
+    }
+}

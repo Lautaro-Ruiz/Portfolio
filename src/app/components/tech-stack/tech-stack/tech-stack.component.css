@@ -32,8 +32,9 @@
 }
 
 .box-skills{
-    margin-right: 12rem;
-    margin-left: 12rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
     margin-top: 2rem;
     border-radius: 2rem;
     padding-top: 1.5rem;
@@ -90,15 +91,22 @@
     margin-top: 1.2rem;
 }
 
-@media (max-width: 1024px) {
+
+@media (max-width: 1200px) {
     .box-skills {
-        margin: 2rem 6rem;
+        margin: 1rem;
+        padding: 2rem 1rem;
+    }
+
+    .tech-stack {
+        padding-left: 2rem;
     }
 }
 
 @media (max-width: 768px) {
     .box-skills {
-        margin: 2rem 3rem;
+        margin: 1rem;
+        padding: 2rem 1rem;
     }
 
     .tech-stack {
