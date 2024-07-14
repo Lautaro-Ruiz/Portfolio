@@ -145,6 +145,11 @@
     .rol {
         font-size: 3rem;
     }
+
+    .download-cv {
+        font-size: 1.3rem;
+        padding: 0.4rem 0.6rem;
+    }
 }
 
 @media (max-width: 768px) {
