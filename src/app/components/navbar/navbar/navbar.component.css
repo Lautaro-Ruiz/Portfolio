@@ -25,6 +25,7 @@
 .box-home{
 
     #button-home{ 
+        color: #ebebeb;
         font-family: Kadwa;
         padding: 0.6rem;
         border: none;
@@ -40,6 +41,7 @@
     justify-content: flex-end;
     
     #button-experience{
+        color: #ebebeb;
         margin-right: 1rem;
         font-family: Kadwa;
         padding: 0.6rem;
@@ -51,6 +53,7 @@
     }
 
     #button-projects{
+        color: #ebebeb;
         margin-right: 1rem;
         font-family: Kadwa;
         padding: 0.6rem;
@@ -62,6 +65,7 @@
     }
 
     #button-about{
+        color: #ebebeb;
         margin-right: 1rem;
         font-family: Kadwa;
         padding: 0.6rem;
@@ -73,6 +77,7 @@
     }
 
     #button-contact{
+        color: #ebebeb;
         font-family: Kadwa;
         padding: 0.6rem;
         border: none;
