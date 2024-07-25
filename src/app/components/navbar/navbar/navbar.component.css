@@ -150,32 +150,6 @@
     display: none; /* Ocultar por defecto */
   }
 
-
-:host ::ng-deep #button-home,
-:host ::ng-deep #button-experience,
-:host ::ng-deep #button-projects,
-:host ::ng-deep #button-about,
-:host ::ng-deep #button-contact {
-  font-family: Kadwa;
-  padding: 0.6rem;
-  border: none;
-  border-radius: 2rem;
-  box-shadow: 3px 5px 4px 3px black;
-  background-color: #b9173d;
-  transition: 0.5s;
-  color: #ebebeb;
-}
-
-:host ::ng-deep #button-home:hover,
-:host ::ng-deep #button-experience:hover,
-:host ::ng-deep #button-projects:hover,
-:host ::ng-deep #button-about:hover,
-:host ::ng-deep #button-contact:hover {
-  background-color: #b9173daf;
-  box-shadow: 0px 0px 1px 1px white;
-}
-
-
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;

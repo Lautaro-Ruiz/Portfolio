@@ -91,7 +91,7 @@
     object-fit: cover; 
 }
 
-@media (min-width: 1025px) and (max-width:1350px){
+@media (min-width: 1025px) and (max-width:1650px){
     .box-personal-information {
         padding-right: 5rem;
         padding-left: 5rem;
