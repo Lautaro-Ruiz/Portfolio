@@ -1,0 +1,23 @@
+.box-navbar{
+    margin-block: 2rem;
+}
+
+.box-buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button{
+    padding: 1rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: aliceblue;
+    font-family: Comfortaa;
+    font-size: 1.2rem;
+}
+
+.inicio{
+    font-size: 1.8rem;
+}
