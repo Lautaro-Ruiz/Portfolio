@@ -1,0 +1,61 @@
+*{
+    font-family: Comfortaa;
+}
+
+.box-introduction-section{
+    display: grid;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.introduction{
+    text-align: center;
+}
+
+.title{
+    color: #E2EA0F;
+    font-size: 3rem;
+}
+
+.fullname{
+    color: aliceblue;
+    font-size: 2.5rem;
+}
+
+.stack{
+    color: #cfcfcf;
+    font-size: 1.5rem;
+}
+
+.text{
+    padding: 0.4rem;
+}
+
+.box-redes{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8rem;
+}
+
+.button{
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+    cursor: pointer;
+}
+
+.linkedIn{
+
+}
+
+.github{
+    margin-left: 5rem;
+}
+
+.svg{
+    width: 30px;
+    height: 30px;
+}

@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background: rgb(66, 66, 66);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.angular-logo {
+    max-width: 9.2rem;
+}

@@ -1,0 +1,54 @@
+*{
+    font-family: Comfortaa;
+}
+
+.box-footer{
+    background-color: rgb(32, 32, 32);
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.space{
+    margin-left: 1rem;
+}
+
+.link{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+}
+
+.box-email{
+    display: flex;
+    align-items: center;
+}
+
+.email-text{
+    margin-left: 0.2rem;
+    color: rgb(156, 156, 156);
+}
