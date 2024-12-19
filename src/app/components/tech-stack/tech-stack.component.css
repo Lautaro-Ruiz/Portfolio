@@ -1,0 +1,43 @@
+*{
+    font-family: Comfortaa;
+}
+
+.box-title{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    font-size: 1.7rem;
+}
+
+.tech-stack {
+    overflow: hidden; /* Oculta las partes que se salen del contenedor */
+    padding: 10px 0;
+}
+  
+.slider {
+    margin-block: 1rem;
+    display: flex;
+    gap: 40px; /* Espaciado entre logos */
+    animation: slide 15s linear infinite; /* Animación continua */
+}
+  
+.slider img {
+    height: 40px; /* Ajusta el tamaño de los logos */
+    transition: transform 0.3s;
+}
+  
+.slider img:hover {
+    transform: scale(1.2); /* Efecto de zoom al pasar el mouse */
+}
+  
+  /* Animación para el desplazamiento */
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
