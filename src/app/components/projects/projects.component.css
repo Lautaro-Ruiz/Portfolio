@@ -1,0 +1,65 @@
+*{
+    font-family: Comfortaa;
+}
+
+.box-projects{
+    display: grid;
+    margin-block: 2rem;
+    justify-content: center;
+}
+
+.box-title{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    font-size: 1.7rem;
+}
+
+.project{
+    margin-block: 1.5rem;
+    display: flex;
+}
+
+.box-name-images{
+    display: flex;
+    align-items: center;
+}
+
+.box-technologies-images{
+    margin-left: 1rem;
+}
+
+.box-description{
+    margin-top: 1rem;
+}
+
+.box-link-github{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.link{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+}
+
+.box-project-images{
+    margin-left: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+  

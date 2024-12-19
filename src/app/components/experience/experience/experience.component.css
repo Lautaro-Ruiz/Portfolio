@@ -1,0 +1,37 @@
+*{
+    font-family: Comfortaa;
+}
+
+.box-experiences{
+    display: grid;
+    margin-block: 2rem;
+    justify-content: center;
+}
+
+.box-title{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    font-size: 1.7rem;
+}
+
+.experience{
+    margin-block: 1.5rem;
+}
+
+.company{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.name{
+    margin-left: 1rem;
+}
+
+.box-description,
+.box-proyecto-asociado{
+    margin-top: 1rem;
+}
