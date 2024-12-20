@@ -15,16 +15,20 @@
 
 .title{
     color: #E2EA0F;
+    color:  #00ccff;
+    text-shadow: 0 0 2px #fff, 0 0 4px #10d6ae;
     font-size: 3rem;
 }
 
 .fullname{
-    color: aliceblue;
+    color:  #801de4;
+    text-shadow: 0 0 2px #5e0396, 0 0 4px #3110d6;
     font-size: 2.5rem;
 }
 
 .stack{
-    color: #cfcfcf;
+    color: white;
+    text-shadow: 0 0 2px #fff, 0 0 5px #07c29c;
     font-size: 1.5rem;
 }
 
