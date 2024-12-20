@@ -16,8 +16,38 @@
     color: aliceblue;
     font-family: Comfortaa;
     font-size: 1.2rem;
+
+    color: white;
+    text-shadow: 0 0 5px #fff, 0 0 10px #00ffcc;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro */
+    border-radius: 8px;
+    padding: 5px;
 }
 
 .inicio{
+    padding: 1rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: aliceblue;
+    font-family: Comfortaa;
+    font-size: 1.2rem;
+
+    color: white;
+    text-shadow: 0 0 5px #fff, 0 0 10px #00ffcc;
+    text-align: center;
+    transition: 0.3s;
     font-size: 1.8rem;
+}
+
+svg {
+    color: white; /* Color del SVG */
+    filter: drop-shadow(0 0 5px #fff) drop-shadow(0 0 10px #00ffcc); /* Sombra similar a text-shadow */
+    display: block;
+    margin: 0 auto; /* Centra el SVG horizontalmente */
 }
