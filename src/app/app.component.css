@@ -1,0 +1,10 @@
+main{
+    background: linear-gradient(135deg, #6a0dad, #00ccff); /* Violeta a celeste */
+    color: white;
+}
+
+header {
+    background: linear-gradient(135deg, #1a001f, #002b4d); /* Degradado violeta a azul oscuro */
+    color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5); 
+}

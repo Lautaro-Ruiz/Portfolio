@@ -4,8 +4,9 @@
 
 .box-projects{
     display: grid;
-    margin-block: 2rem;
     justify-content: center;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+    padding-block: 2rem;
 }
 
 .box-title{
@@ -14,6 +15,10 @@
 }
 
 .title{
+    color: white;
+    text-shadow: 0 0 5px #fff, 0 0 10px #00ffcc;
+    margin-bottom: 15px;
+    text-align: center;
     font-size: 1.7rem;
 }
 
@@ -22,20 +27,18 @@
     display: flex;
 }
 
-.box-name-images{
+.box-name{
     display: flex;
     align-items: center;
 }
 
-.box-technologies-images{
-    margin-left: 1rem;
-}
-
 .box-description{
     margin-top: 1rem;
+    max-width: 500px;
 }
 
-.box-link-github{
+.box-technologies, 
+.box-github{
     display: flex;
     margin-top: 1rem;
     justify-content: center;
@@ -48,15 +51,25 @@
     align-items: center;
 }
 
-.box-project-images{
-    margin-left: 5rem;
+.box-project-images {
     display: flex;
+    align-items: center;
     justify-content: center;
+    position: relative;
 }
-
-
-
-
+  
+.project-images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+  
+.next, .before {
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
 
 .highlight {
     color: red;

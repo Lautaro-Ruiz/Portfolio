@@ -3,7 +3,7 @@
 }
 
 .box-footer{
-    background-color: rgb(32, 32, 32);
+    background: linear-gradient(135deg,  #002b4d, #2a0032); /* Degradado violeta a azul oscuro */
     padding: 0.5rem;
     display: flex;
     align-items: center;

@@ -12,23 +12,40 @@
 }
 
 .tech-stack {
-    overflow: hidden; /* Oculta las partes que se salen del contenedor */
-    padding: 10px 0;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+    padding-block: 3rem;
 }
   
 .slider {
-    margin-block: 1rem;
     display: flex;
-    gap: 40px; /* Espaciado entre logos */
-    animation: slide 15s linear infinite; /* Animación continua */
+    gap: 15px;
+    justify-content: center;
+    padding-block: 1rem;
 }
   
-.slider img {
+.slider img, .slider svg {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro */
+    border-radius: 8px;
+    padding: 5px;
+    border: 2px solid white; /* Mejora la visibilidad */
+    filter: drop-shadow(0 0 10px #6a0dad); /* Resplandor */
+    width: 40px; /* Ajustar tamaño uniforme */
+    height: 40px;
+}
+  
+.box-title h4 {
+    color: white;
+    text-shadow: 0 0 5px #fff, 0 0 10px #00ffcc;
+    margin-bottom: 15px;
+    text-align: center;
+}
+  
+.slider img, .slider svg {
     height: 40px; /* Ajusta el tamaño de los logos */
     transition: transform 0.3s;
 }
   
-.slider img:hover {
+.slider img:hover, .slider svg:hover {
     transform: scale(1.2); /* Efecto de zoom al pasar el mouse */
 }
   
