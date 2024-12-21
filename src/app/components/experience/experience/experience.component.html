@@ -7,19 +7,25 @@
             <div class="box-name-and-company">
                 <h5 class="rol">Backend Developer</h5>
                 <div class="company">
-                    <img src="/No Country Logo.jpg" width="35" height="35" alt="NoCountry">
+                    <img src="/No Country Logo.jpg" width="45" height="45" alt="NoCountry">
                     <div class="name">
                         <h6>No Country</h6>
                         <h6>Simulacion Laboral</h6>
                     </div>
                 </div>
             </div>
-            <div class="box-description">
-                <p>Desarrollo de sistema para conectar médicos con pacientes</p>
-                <p>Realización de tareas con Spring Boot y Spring Security</p>
-                <p>Uso de JWT</p>
-                <p>Gestión de base de datos relacional en MySQL</p>
-                <p>Comunicación efectiva en equipo entre varios roles y un Team Leader</p>
+            <div class="box-description" *ngFor="let positiveAspect of description">
+                <div class="positiveAspect">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" style="filter: drop-shadow(0 0 5px #00ffcc) drop-shadow(0 0 10px #00ffcc);">
+                        <style>@keyframes check {
+                        to {
+                          stroke-dashoffset: 0;
+                        }
+                      }</style>
+                      <path stroke="#fff" stroke-linecap="round" stroke-width="1.5" d="M5.387 12.68l3.955 3.956 9.271-9.272" style="animation:check 1.5s infinite cubic-bezier(.99,-.1,.01,1.02)" stroke-dashoffset="100" stroke-dasharray="100"/>
+                    </svg>
+                    <p class="positiveAspectText">{{positiveAspect}}</p>
+                </div>
             </div>
             <div class="box-proyecto-asociado">
                 <p>Asociada con el proyecto Salud Online</p>

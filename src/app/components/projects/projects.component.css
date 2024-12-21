@@ -1,5 +1,5 @@
 *{
-    font-family: Comfortaa;
+    font-family: Poppins;
 }
 
 .box-projects{
@@ -25,6 +25,7 @@
 .project{
     margin-block: 1.5rem;
     display: flex;
+    align-items: center;
 }
 
 .box-name{
@@ -32,9 +33,14 @@
     align-items: center;
 }
 
+.project-name{
+    font-size: 1.3rem;
+}
+
 .box-description{
     margin-top: 1rem;
-    max-width: 500px;
+    max-width: 450px;
+    font-size: 0.9rem;
 }
 
 .box-technologies, 
@@ -44,11 +50,41 @@
     justify-content: center;
 }
 
+.box-technologies img{
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro */
+    border-radius: 8px;
+    padding: 5px;
+    border: none; /* Mejora la visibilidad */
+    filter: drop-shadow(0 0 10px #6a0dad); /* Resplandor */
+    width: 30px; /* Ajustar tamaño uniforme */
+    height: 30px;
+    margin-right: 0.4rem;
+    transition: transform 0.3s;
+}
+
+.box-technologies img:hover{
+    transform: scale(1.2);
+}
+
 .link{
     margin: 0%;
     padding: 0%;
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.link:hover{
+    color: rgb(206, 213, 220);
+}
+
+.github{
+    margin-top: 0.4rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    filter: drop-shadow(0 0 10px #6a0dad);
+    border-radius: 8px;
+    padding: 5px;
 }
 
 .box-project-images {
@@ -56,6 +92,10 @@
     align-items: center;
     justify-content: center;
     position: relative;
+}
+
+.box-project-images {
+    transform: translateX(90px); /* Mueve hacia la derecha */
 }
   
 .project-images img {
@@ -69,6 +109,14 @@
     cursor: pointer;
     border-radius: 5px;
     border: none;
+}
+
+.paragraph{
+    margin-left: 0.2rem;
+}
+
+.arrow-next{
+    filter: drop-shadow(0 0 10px #00ffcc);
 }
 
 .highlight {

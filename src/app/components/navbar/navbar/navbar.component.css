@@ -17,6 +17,7 @@
     text-shadow: 0 0 5px #fff, 0 0 10px #00ffcc;
     text-align: center;
     transition: 0.3s;
+    font-family: Poppins;
 }
 
 .button:hover{

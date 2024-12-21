@@ -1,5 +1,5 @@
 *{
-    font-family: Comfortaa;
+    font-family: Poppins;
 }
 
 .box-experiences{
@@ -9,9 +9,14 @@
     padding-block: 2rem;
 }
 
-.box-title{
+.box-title, 
+.box-proyecto-asociado{
     display: flex;
     justify-content: center;
+}
+
+.box-proyecto-asociado{
+    color: rgb(156, 156, 156);
 }
 
 .title{
@@ -23,20 +28,48 @@
 }
 
 .experience{
-    margin-block: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .company{
     display: flex;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 0.8rem;
 }
 
 .name{
     margin-left: 1rem;
+    font-size: 1.2rem;
 }
 
-.box-description,
+.rol{
+    font-size: 1.3rem;
+}
+
 .box-proyecto-asociado{
     margin-top: 1rem;
+}
+
+.box-name-and-company{
+    margin-bottom: 0.9rem;
+}
+
+.box-description{
+    margin-top: 0.4rem;
+    display: grid;
+    font-size: 0.9rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro */
+    border-radius: 8px;
+    padding: 5px;
+    filter: drop-shadow(0 0 10px #6a0dad); /* Resplandor */
+}
+
+.positiveAspect{
+    display: flex;
+    align-items: center;
+}
+
+.positiveAspectText{
+    margin-left: 0.3rem;
 }
