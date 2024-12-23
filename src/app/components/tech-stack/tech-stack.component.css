@@ -66,3 +66,49 @@
         transform: translateX(100%);
     }
 }
+
+@media (max-width: 1024px) {
+    .title {
+        font-size: 1.5rem;
+    }
+    .slider-container{
+        max-width: calc(100% - 25rem);
+    }
+    .slider img, .slider svg {
+        width: 40px;
+        height: 40px;
+    }
+    .slider {
+        gap: 10px;
+        padding-block: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 1.2rem;
+    }
+    .slider-container{
+        max-width: calc(100% - 10rem);
+    }
+    .slider {
+        padding-block: 0.5rem;/* Detenemos la animación en pantallas más pequeñas */
+    }
+    .slider img, .slider svg {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1rem;
+    }
+    .slider img, .slider svg {
+        width: 30px;
+        height: 30px;
+    }
+    .slider {
+        gap: 5px;
+    }
+}

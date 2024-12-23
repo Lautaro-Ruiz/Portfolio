@@ -1,58 +1,112 @@
-*{
+/* Estilos generales */
+* {
     font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.box-footer{
-    background: linear-gradient(135deg,  #002b4d, #2a0032); /* Degradado violeta a azul oscuro */
-    padding: 0.5rem;
+.box-footer {
+    background: linear-gradient(135deg, #002b4d, #2a0032); /* Degradado violeta a azul oscuro */
+    padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.box-redes{
+.box-redes {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 1rem; /* Espaciado entre elementos */
 }
 
-.box-1{
-    display: flex;
-    justify-content: center;
-}
-
-.button{
+.button {
     font-weight: 600;
     font-size: 0.9rem;
     display: flex;
     align-items: center;
-    padding: 0.2rem;
+    padding: 0.5rem;
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
 
-.space{
-    margin-left: 1rem;
-}
-
-.link{
+.link {
     margin: 0%;
     padding: 0%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.box-email{
+.box-email {
     display: flex;
     align-items: center;
 }
 
-.box-email, .github{
+.box-email, .github {
     margin-left: 1rem;
 }
 
-.email-text{
+.email-text {
     margin-left: 0.4rem;
     color: rgb(156, 156, 156);
+}
+
+/* Estilos para pantallas medianas */
+@media screen and (max-width: 768px) {
+    .box-redes {
+        align-items: center; /* Centrar elementos */
+        gap: 0.6rem;
+        justify-content: center;
+    }
+
+    .box-email, .github {
+        margin-left: 0; /* Eliminar margen izquierdo */
+    }
+
+    .link, .box-email {
+        width: 100%; /* Asegurar que los elementos ocupen todo el ancho disponible */
+        justify-content: center; /* Centrar el contenido */
+    }
+
+    .email-text {
+        font-size: 0.9rem; /* Reducir tamaño del texto */
+    }
+
+    svg {
+        width: 30px; /* Ajustar tamaño de íconos */
+        height: 30px;
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 480px) {
+    .box-footer {
+        padding: 1rem 0.5rem; /* Reducir padding para pantallas muy pequeñas */
+    }
+
+    .box-redes{
+        justify-content: center;
+        gap: 0.2rem;
+    }
+
+    .space {
+        margin-left: 0.1rem;
+    }
+
+    .box-email img{
+        width: 22px;
+        height: 22px;
+    }
+
+    .email-text {
+        font-size: 0.8rem; /* Reducir aún más el tamaño del texto */
+    }
+
+    svg {
+        width: 25px;
+        height: 25px;
+    }
 }

@@ -62,3 +62,67 @@
     color: white;
     text-shadow: 0 0 1px #fff, 0 0 5px #07c29c;
 }
+
+@media (max-width: 1024px) {
+    .title {
+        font-size: 1.5rem;
+    }
+    .academic-degree-university {
+        flex-direction: column; /* Cambia de fila a columna */
+        align-items: center; /* Alinea los elementos al inicio */
+        text-align: center; /* Alinea el texto a la izquierda */
+    }
+    .box-image {
+        margin-bottom: 1rem; /* Espacio entre imagen y texto */
+    }
+    .box-information {
+        margin-left: 0; /* Elimina margen lateral */
+    }
+    .box-description {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 1.2rem;
+    }
+    .box-education {
+        padding-block: 1.5rem; /* Reduce el espaciado */
+    }
+    .academic-degree-university {
+        align-items: center;
+        text-align: center; /* Centra el texto */
+    }
+    .box-image img {
+        width: 50px; /* Reduce el tamaño de la imagen */
+        height: 50px;
+    }
+    .box-information h4, .box-information h5, .box-description p {
+        font-size: 0.9rem; /* Ajusta el tamaño de fuente */
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1rem;
+    }
+    .box-education {
+        padding-block: 1rem; /* Reduce más el espaciado */
+    }
+    .academic-degree-university {
+        flex-direction: column;
+        align-items: center; /* Asegura que todo esté centrado */
+        text-align: center;
+    }
+    .box-image img {
+        width: 40px; /* Tamaño más pequeño para la imagen */
+        height: 40px;
+    }
+    .box-information h4, .box-information h5, .box-description p {
+        font-size: 0.8rem; /* Tamaño más pequeño para texto */
+    }
+    .box-description {
+        margin-top: 0.5rem;
+    }
+}

@@ -94,3 +94,42 @@
     text-decoration: none;
     color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+    .box-redes {
+        flex-wrap: wrap;
+        justify-content: center; /* Centra los botones */
+        gap: 1rem; /* Espaciado entre los botones */
+    }
+    .github {
+        margin-left: 0; /* Elimina el margen izquierdo */
+    }
+    .button {
+        width: auto; /* Elimina el ancho completo */
+        min-width: 150px; /* Ancho mínimo para los botones */
+        justify-content: center; /* Centra el contenido dentro del botón */
+    }
+    .svg {
+        width: 24px; /* Ajustar tamaño de los íconos */
+        height: 24px;
+    }
+    .paragraph {
+        font-size: 0.8rem; /* Reducir el tamaño del texto */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 2.5rem; /* Reducir tamaño del título */
+    }
+    .fullname {
+        font-size: 2rem;
+    }
+    .stack {
+        font-size: 1.2rem;
+    }
+    .button {
+        padding: 0.5rem; /* Más espacio interno para mejor visibilidad */
+        max-width: 200px; /* Evitar que los botones crezcan demasiado */
+    }
+}
