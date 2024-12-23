@@ -80,3 +80,94 @@
 .positiveAspectText{
     margin-left: 0.3rem;
 }
+
+@media (max-width: 1024px) {
+    .title {
+        font-size: 1.5rem;
+    }
+    .rol {
+        font-size: 1.2rem;
+    }
+
+    .box-name-and-company {
+        align-items: center;
+    }
+    .company {
+        align-items: center;
+    }
+    .name {
+        margin-left: 0.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 1.3rem;
+    }
+    .rol {
+        font-size: 1.1rem;
+    }
+    .company img {
+        width: 35px; /* Ajusta el tamaño del logo */
+        height: 35px;
+    }
+    .box-description {
+        font-size: 0.85rem; /* Reduce el tamaño del texto */
+        padding: 8px; /* Ajusta el padding */
+    }
+    .positiveAspect svg {
+        width: 24px; /* Reduce el tamaño del ícono */
+        height: 24px;
+    }
+    .positiveAspectText {
+        font-size: 0.85rem; /* Ajusta el tamaño del texto */
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1rem;
+    }
+    .rol {
+        font-size: 1rem;
+    }
+    .company img {
+        width: 30px; /* Tamaño aún más pequeño */
+        height: 30px;
+    }
+    .box-description {
+        font-size: 0.8rem; /* Texto más pequeño */
+        padding: 5px; /* Menos espacio */
+    }
+    .experiences{
+        padding-inline: 0.5rem;
+        justify-content: center;
+    }
+    .positiveAspect svg {
+        width: 20px; /* Ícono más pequeño */
+        height: 20px;
+    }
+    .positiveAspectText {
+        font-size: 0.75rem; /* Texto más pequeño */
+    }
+    .box-proyecto-asociado p {
+        font-size: 0.8rem; /* Reduce el tamaño del texto */
+    }
+    .name {
+        font-size: 0.9rem;
+    }
+    .company {
+        margin-top: 0.5rem; /* Ajusta el espaciado */
+    }
+}
+
+@media (max-width: 380px){
+    .box-description {
+        font-size: 0.7rem; /* Texto más pequeño */
+        padding: 5px; /* Menos espacio */
+    }
+
+    .positiveAspectText {
+        font-size: 0.69rem; /* Texto más pequeño */
+    }
+}
