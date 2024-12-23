@@ -6,10 +6,11 @@ import { IntroductionSectionComponent } from './components/introduction-section/
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ExperienceComponent } from './components/experience/experience/experience.component';
 import { TechStackComponent } from './components/tech-stack/tech-stack.component';
+import { EducationComponent } from './components/education/education.component';
 
 @Component({
   selector: 'app-root',
-  imports: [NavbarComponent, FooterComponent, IntroductionSectionComponent, ProjectsComponent, ExperienceComponent, TechStackComponent],
+  imports: [NavbarComponent, FooterComponent, IntroductionSectionComponent, ProjectsComponent, ExperienceComponent, EducationComponent,TechStackComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

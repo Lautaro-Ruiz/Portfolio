@@ -1,0 +1,64 @@
+*{
+    font-family: Poppins;
+}
+
+.box-education{
+    display: grid;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+    padding-block: 2rem;
+}
+
+.education{
+    padding-block: 2rem;
+    padding-top: 1rem;
+}
+
+.box-title{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    color: white;
+    text-shadow: 0 0 5px #fff, 0 0 10px #00ffcc;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.academic-degree-university{
+    display: flex;
+    align-items: center;
+}
+
+.academic-degree-text{
+    color: #00ffcc; /* Color neón */
+    text-shadow: 0 0 2px #00ffcc, 0 0 10px #00ffcc, 0 0 20px #00ccaa;
+    font-weight: bold;
+}
+
+.box-image{
+    display: flex;
+    align-items: center;
+}
+
+.box-information{
+    margin-left: 1rem;
+}
+
+.box-description{
+    margin-top: 1rem;
+    text-align: center;
+    color: rgb(192, 192, 192);
+}
+
+.university-text{
+    color: white;
+    text-shadow: 0 0 3px #fff, 0 0 10px #00ffcc;
+}
+
+.fecha{
+    color: white;
+    text-shadow: 0 0 1px #fff, 0 0 5px #07c29c;
+}

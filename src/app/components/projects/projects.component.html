@@ -9,7 +9,7 @@
                     <h5 class="project-name"> {{project.name}} </h5>
                 </div>
                 <div class="box-description">
-                    <p [innerHTML]="highlightWord(project.description, 'usuario')"></p>
+                    <p> {{project.description}} </p>
                 </div>
                 <div class="box-technologies">
                     <div *ngFor="let technologieImage of project.technologiesImages">
@@ -33,13 +33,16 @@
                     </svg>
                 </button>
 
-                <div class="project-images">
-                  <img 
-                    [src]="project.projectImages[project.currentImageIndex]" 
-                    width="530" 
-                    height="650" 
-                    alt="projectImage"
-                  >
+                <div 
+                    class="project-images" 
+                    [class.animate]="project.isAnimating"
+                    >
+                    <img 
+                        [src]="project.projectImages[project.currentImageIndex]" 
+                        width="600" 
+                        height="650" 
+                        alt="projectImage"
+                    >
                 </div>
         
                 <button class="next" (click)="nextImage(project)">
@@ -48,7 +51,7 @@
                         <path fill=" #fff" stroke=" #fff" stroke-linecap="round" stroke-width=".4" d="M11.781 9.154a.429.429 0 00-.659.549L13.038 12l-1.915 2.297a.429.429 0 10.659.549l2.138-2.566a.428.428 0 000-.56l-2.138-2.566z" style="animation:slide-15 1s infinite alternate both cubic-bezier(1,-.01,0,.98)"/>
                     </svg>
                 </button>
-              </div>
+            </div>
         </div>
     </section>
 </section>

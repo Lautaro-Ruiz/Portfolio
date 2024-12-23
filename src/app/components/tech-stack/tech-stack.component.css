@@ -41,6 +41,11 @@
     transition: transform 0.3s;
 }
   
+.slider svg {
+    width: 50px;  /* Asegúrate de que el SVG tenga un tamaño fijo */
+    height: 50px;
+}
+
 .box-title h4 {
     color: white;
     text-shadow: 0 0 5px #fff, 0 0 10px #00ffcc;

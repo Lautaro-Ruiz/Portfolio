@@ -45,13 +45,20 @@
 
 .rol{
     font-size: 1.3rem;
+    color: #00ffcc; /* Color neón */
+    text-shadow: 0 0 2px #00ffcc, 0 0 10px #00ffcc, 0 0 20px #00ccaa;
+    font-weight: bold;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
+
 
 .box-proyecto-asociado{
     margin-top: 1rem;
 }
 
 .box-name-and-company{
+    display: grid;
+    align-items: center;
     margin-bottom: 0.9rem;
 }
 
