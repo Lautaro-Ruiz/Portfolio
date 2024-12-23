@@ -80,9 +80,17 @@
     margin: 0%;
     margin-left: 0.2rem;
     font-family: Poppins;
+    text-decoration: none;
 }
 
 .svg{
     width: 30px;
     height: 30px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
 }
