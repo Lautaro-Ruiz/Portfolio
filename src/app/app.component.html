@@ -5,25 +5,33 @@
 </header>
 
 <main>
-  <section>
+  <section id="introduction">
       <app-introduction-section></app-introduction-section>
   </section>
 
-  <section>
+  <section id="projects">
       <app-projects></app-projects>
   </section>
 
-  <section>
+  <section id="experience">
       <app-experience></app-experience>
   </section>
 
-  <section>
+  <section id="education">
     <app-education></app-education>
   </section>
 
-  <section>
+  <section id="tech-stack">
     <app-tech-stack></app-tech-stack>
   </section>
+
+    <!-- Flecha para volver arriba -->
+  <button class="scroll-to-top" (click)="scrollToTop()">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none">
+      <style>@keyframes slide-8{to{transform:translateY(2px)}}</style><path fill="#fff" fill-rule="evenodd" d="M17.358 11.368a.714.714 0 00-.092-1.006L12.99 6.798a.71.71 0 00-.778-.102.708.708 0 00-.155.102L7.78 10.362a.714.714 0 10.915 1.097l3.078-2.565v7.731a.75.75 0 001.5 0v-7.73l3.079 2.564a.714.714 0 001.006-.091z" clip-rule="evenodd" style="animation:slide-8 1s infinite alternate both cubic-bezier(1,-.01,0,.98)"/>
+    </svg>
+  </button>
+
 </main>
 
 <footer>

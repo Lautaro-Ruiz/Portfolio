@@ -20,7 +20,7 @@ export class ProjectsComponent {
     },
     {
       name: 'Salud Online',
-      description: 'Sistema que conecta a pacientes con una diversidad de especialistas. El usuario puede registrarse e iniciar sesion y ver los distintos medicos disponibles y a partir de allí, solicitar un turno. Por su parte, el médico, puede crear su perfil, detallar información sobre sus consultas médicas y recibir turnos.',
+      description: 'Sistema que conecta a pacientes con una diversidad de especialistas. El usuario puede registrarse e iniciar sesión y ver los distintos médicos disponibles y a partir de allí, solicitar un turno. Por su parte, el médico, puede crear su perfil, detallar información sobre sus consultas médicas y recibir turnos.',
       linkGithub: 'https://github.com/bauticalvo/c-18-30-java-react',
       projectImages: ['Landing 1.png', 'Landing 2.png', 'Landing 3.png', 'Login.png', 'Perfil paciente.png'],
       technologiesImages: ['reactjs-line.svg', 'tailwind-css-fill.svg','spring-logo.png', 'java-line.svg', 'mysql logo.png'],
