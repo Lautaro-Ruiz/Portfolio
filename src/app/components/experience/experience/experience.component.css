@@ -107,6 +107,10 @@
     .rol {
         font-size: 1.1rem;
     }
+    .experiences{
+        padding-inline: 0.5rem;
+        justify-content: center;
+    }
     .company img {
         width: 35px; /* Ajusta el tamaño del logo */
         height: 35px;
@@ -165,6 +169,10 @@
     .box-description {
         font-size: 0.7rem; /* Texto más pequeño */
         padding: 5px; /* Menos espacio */
+    }
+
+    .name {
+        font-size: 0.9rem;
     }
 
     .positiveAspectText {
