@@ -65,6 +65,7 @@ svg {
 @media (max-width: 768px) {
     .box-buttons {
         gap: 0.5rem; /* Reduce el espacio entre botones */
+        padding-block: 0.3rem;
     }
 
     .button,
